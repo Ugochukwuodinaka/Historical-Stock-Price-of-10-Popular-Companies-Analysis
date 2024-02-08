@@ -54,6 +54,24 @@ Each of these tables contains 7 columns. Here's an overview of the table columns
 4. I created a table __"Date Year"__ to house the __"Date"__ seperately.
 5. I added a new column __"Quarter"__ in the __"10 Companies"__ table to handle stock transactions by the 4 quaters of the year.
 6. I transformed every other column type to its appropriate column type.
-7. After data cleaning and tranformation was performed all the tables. The tables appeared to be clean. The quality of each column is 100% with no error or nulls. Below is a preview of some of the tables which are the __Amazon__, __Ffacebook__, __Tesla__, and the __10 Cpmpanies__ tables:
+7. After data cleaning and tranformation was performed all the tables. The tables appeared to be clean. The quality of each column is 100% with no error or nulls. Below is a preview of some of the tables which are the __Amazon__, __Facebook__, __Tesla__, and the __10 Companies__ tables:
 
+
+Amazon Table                                  | Facebook Table        
+:--------------------------------------------:|:--------------------------------------------:|
+![](images/Top_10_Most_Valuable_Unicorns.png) | ![](images/Top_8_Unicorn_With_Most_Funding.png)
+
+
+Microsoft Table                                            |Tesla Table
+:---------------------------------------------------------:|:------------------------------------------------------:|
+![](images/Top_10_Countries_With_Most_Select_Investors.png)|![](images/Top_10_Select_Investors_by_Funding.png)  
+
+Top 5 Cities With Most Unicorns Concentration                  |Top 5 Countries With Most Unicorms 
+:-------------------------------------------------------------:|:--------------------------------------------------:|
+![](images/Top_5_Cities_With_Most_Unicorn%20_Concentration.png)|![](images/Top_5_Countries_With_Most_Unicorns.png)
+
+
+Top 5 Industries By Valuation                |Unicorns Distribution Across Industries 
+:-------------------------------------------:|:----------------------------------------------------------------:|
+![](images/Top_5_Industries_By_Valuation.png)|![](images/Unicorns_Distribution_Across_Industries.png)
 
