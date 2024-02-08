@@ -57,17 +57,17 @@ Each of these tables contains 7 columns. Here's an overview of the table columns
 7. After data cleaning and tranformation was performed all the tables. The tables appeared to be clean. The quality of each column is 100% with no error or nulls. Below is a preview of some of the tables which are the __Amazon__, __Facebook__, __Tesla__, and the __10 Companies__ tables:
 
 
-Amazon Table                                  | Facebook Table        
-:--------------------------------------------:|:--------------------------------------------:|
-![](Amazon_table_Power_Query.png)             | ![](Facebook_table_Power_Query.png)
+Amazon Table                                               | Facebook Table        
+:---------------------------------------------------------:|:--------------------------------------------:|
+![](Amazon_table_Power_Query.png)                          | ![](Facebook_table_Power_Query.png)
 
 
 Microsoft Table                                            |Tesla Table
 :---------------------------------------------------------:|:------------------------------------------------------:|
 ![](Microsoft_table_Power_Query.png)                       |![](Tesla_table_Power_Query.png)  
-
-10 Companies Table                                             | 
-:-------------------------------------------------------------:|
+                  
+10 Companies Table                                                                                               | 
+:---------------------------------------------------------------------------------------------------------------:|
 [](10_Companies_table_Power_Query.png) |
 
 
