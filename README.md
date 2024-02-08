@@ -68,7 +68,7 @@ Microsoft Table                                            |Tesla Table
                   
 10 Companies Table                                                                 |                                | 
 :---------------------------------------------------------------------------------:|:------------------------------:|
-[](10_Companies_table_Power_Query.png)                                             |                                |
+![](10_Companies_table_Power_Query.png)                                             |                                |
 
 
 
