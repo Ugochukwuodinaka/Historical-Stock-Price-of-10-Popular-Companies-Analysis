@@ -48,9 +48,9 @@ Each of these tables contains 7 columns. Here's an overview of the table columns
         5. Tooltips
 
 ### Data Cleaning, Transformation and Loading using the Power Query Editor:
-1. I added the column **"Company"** in each of the 10 tables to reflect the names of each company in their individual data table.
-2. I Cceated a new table **"Company Lookup"** with only one column: **"Company"** to be able to relate with all the other tables with the "Company" key.
-3. I created a new table **"10 Companies"** housing all the data in each and every of the dataset table columns.
-4. I created a table **"Date Year"** to house the **"Date"** seperately.
-5. I added a new column **"Quarter"** in the **"10 Companies"** table to handle stock transactions by the 4 quaters of the year.
+1. I added the column __"Company"__ in each of the 10 tables to reflect the names of each company in their individual data table.
+2. I Cceated a new table __"Company Lookup"__ with only one column: __"Company"__ to be able to relate with all the other tables with the "Company" key.
+3. I created a new table __"10 Companies"__ housing all the data in each and every of the dataset table columns.
+4. I created a table __"Date Year"__ to house the __"Date"__ seperately.
+5. I added a new column __"Quarter"__ in the __"10 Companies"__ table to handle stock transactions by the 4 quaters of the year.
 6. I ransformed every other column type to its appropriate column type.
