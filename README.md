@@ -54,7 +54,7 @@ Each of these tables contains 7 columns. Here's an overview of the table columns
 4. I created a table __"Date Year"__ to house the __"Date"__ seperately.
 5. I added a new column __"Quarter"__ in the __"10 Companies"__ table to handle stock transactions by the 4 quaters of the year.
 6. I transformed every other column type to its appropriate column type.
-7. After data cleaning and tranformation was performed all the tables. The tables appeared to be clean. The quality of each column is 100% with no error or nulls. Below is a preview of some of the tables which are the __Amazon__, __Facebook__, __Tesla__, and the __10 Companies__ tables:
+7. After data cleaning and tranformation was performed all the tables. The tables appeared to be clean. The quality of each column is 100% with no error or nulls. Below is a preview of some of the tables which are __Amazon__, __Facebook__, __Microsoft__, __Tesla__, and __10 Companies__ tables:
 
 
 Amazon Table                                               | Facebook Table        
