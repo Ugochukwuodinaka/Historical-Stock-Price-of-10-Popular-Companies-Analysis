@@ -72,4 +72,12 @@ Microsoft Table                                            |Tesla Table
 
 
 
+## Data Model Design
+The data required for this analysis are located in various tables. Therefore, data modelling is required. . A star Schema is designed with the Sales Table representing the fact table containing all redundant data, and to which other dimension tables are modelled or connected to, using the column that is common. Sales Table has been modelled with:
 
+SalesRep Table using the "SalesRep ID"
+Locations Table using the "Location ID"
+Products Table using "Product ID"
+Customers Tables via "Customer ID"
+
+![](Model_View_2.png)
