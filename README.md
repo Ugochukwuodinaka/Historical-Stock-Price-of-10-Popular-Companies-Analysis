@@ -59,19 +59,17 @@ Each of these tables contains 7 columns. Here's an overview of the table columns
 
 Amazon Table                                  | Facebook Table        
 :--------------------------------------------:|:--------------------------------------------:|
-![](images/Top_10_Most_Valuable_Unicorns.png) | ![](images/Top_8_Unicorn_With_Most_Funding.png)
+![](Amazon_table_Power_Query.png)             | ![](Facebook_table_Power_Query.png)
 
 
 Microsoft Table                                            |Tesla Table
 :---------------------------------------------------------:|:------------------------------------------------------:|
-![](images/Top_10_Countries_With_Most_Select_Investors.png)|![](images/Top_10_Select_Investors_by_Funding.png)  
+![](Microsoft_table_Power_Query.png)                       |![](Tesla_table_Power_Query.png)  
 
-Top 5 Cities With Most Unicorns Concentration                  |Top 5 Countries With Most Unicorms 
-:-------------------------------------------------------------:|:--------------------------------------------------:|
-![](images/Top_5_Cities_With_Most_Unicorn%20_Concentration.png)|![](images/Top_5_Countries_With_Most_Unicorns.png)
+10 Companies Table                                             | 
+:-------------------------------------------------------------:|
+[](10_Companies_table_Power_Query.png) |
 
 
-Top 5 Industries By Valuation                |Unicorns Distribution Across Industries 
-:-------------------------------------------:|:----------------------------------------------------------------:|
-![](images/Top_5_Industries_By_Valuation.png)|![](images/Unicorns_Distribution_Across_Industries.png)
+
 
