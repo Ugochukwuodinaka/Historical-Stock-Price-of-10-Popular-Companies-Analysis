@@ -84,7 +84,7 @@ Model View 1 (For all 10 Companies)                                             
 :---------------------------------------------------------------------------------:|
 ![](Model_View_1.png)                                                              |           
 
-Model View 2 (Showing the relationaships fact table and its dimensions tabel)      |                                
-:---------------------------------------------------------------------------------:|
-![](Model_View_1.png)                                                              |           
+Model View 2 (Showing the relationship between the  fact table and the dimensions tabel)      |                                
+:--------------------------------------------------------------------------------------------:|
+![](Model_View_2.png)                                                                         |           
 
