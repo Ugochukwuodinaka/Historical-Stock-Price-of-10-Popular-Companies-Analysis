@@ -80,4 +80,11 @@ Locations Table using the "Location ID"
 Products Table using "Product ID"
 Customers Tables via "Customer ID"
 
-![](Model_View_2.png)
+Model View 1 (For all 10 Companies)                                                |                                
+:---------------------------------------------------------------------------------:|
+![](Model_View_1.png)                                                              |           
+
+Model View 2 (Showing the relationaships fact table and its dimensions tabel)      |                                
+:---------------------------------------------------------------------------------:|
+![](Model_View_1.png)                                                              |           
+
