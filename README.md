@@ -99,3 +99,6 @@ Model View 2 (Showing the relationship between the  fact table and the dimension
 :--------------------------------------------------------------------------------------------:|
 ![](Model_View_2.png)                                                                         |           
 
+## Visualization in Power BI:
+#### Report
+![](Historical_Stock_Price_Of_10_Popular_Companies_Dashboard.jpg)
