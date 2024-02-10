@@ -158,7 +158,7 @@ From the analysis, i made the following Key findings below:
           stakeholders seeking to interpret market trends and make informed decisions.
 
 
-- <img src="Average_Low_and_High_Price_Traded_By_Companies_image.jpg" width="450">
+- <img src="Average_Low_and_High_Price_Traded_By_Companies_image.jpg" width="500">
 - **Total Average Low And Hhigh Price Traded By Company:**
 - In this analysis of the total average low and high prices traded by company, my analysis provides valuable insights into the price ranges within which stocks of different companies typically trade. Amazon leads with the highest total average low and high prices, followed by Google, Netflix, Zoom, and Tesla, among others.
   - __My Interpretation and Insights:__
@@ -175,7 +175,7 @@ From the analysis, i made the following Key findings below:
          ranges may be perceived as more volatile and risky, while those with narrower price ranges may be considered more stable and predictable. 
 
 
-- <img src="Total_Traded_Volume_By_Company_Year_Trend_image.jpg" width="450">
+- <img src="Total_Traded_Volume_By_Company_Year_Trend_image.jpg" width="500">
 - **Total Traded Volume By Company Year Trend:**
 - In this analysis," width="250">
 - **Total Traded Volume By Company Year Trend:**
