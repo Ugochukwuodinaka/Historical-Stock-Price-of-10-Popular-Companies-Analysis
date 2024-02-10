@@ -78,7 +78,7 @@ The data required for this analysis are located in various tables. Therefore, da
 - __Amazon__ table using the __"Company"__
 - __Apple__ table using the __"Company"__
 - __Facebook__ table using the __"Company"__
-- ___Google__ table using the __"Company"__
+- __Google__ table using the __"Company"__
 - __Microsoft__ table using the __"Company"__
 - __Netflix__ table using the __"Company"__
 - __Tesla__ table using the __"Company"__
