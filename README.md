@@ -102,3 +102,33 @@ Model View 2 (Showing the relationship between the  fact table and the dimension
 ## Visualization in Power BI:
 #### Report
 ![](Historical_Stock_Price_Of_10_Popular_Companies_Dashboard.jpg)
+
+### Project Analysis:
+From the analysis, i made the following Key findings below:
+- The Total Traded Volume is 465bn.
+- The Total Average Traded Volume is 28.25M.
+- Average Traded Open Price is 409.76.
+- Average Traded Close Price is 409.81.
+- Average Adjusted Close Price 447.01.
+- The Total Number of Companies is 10.
+
+- <img src="Total_Traded_Volume_By_Company_image.jpg" width="250">
+- **The Total Traded Volume By Company:**
+- In this analysis of total traded volume by company, my analysis reveals significant disparities in trading activity across the ten popular companies. Apple leads the pack with a total traded volume of 243 billion shares, followed by Tesla with 67 billion shares and Microsoft with 53 billion shares. Facebook, Netflix, Uber, Walmart, and Amazon also exhibit substantial trading volumes, ranging from 39 billion to 15 billion shares. Zoom and Google, on the other hand, lag behind with relatively lower total traded volumes of 4 billion and 3 billion shares, respectively.
+
+- __My Interpretation and Insights:__
+    __Investor Interest and Market Dynamics:__
+      - The substantial total traded volume for companies like Apple, Tesla, and Microsoft suggests heightened investor interest and confidence in these stocks. These companies are 
+        often considered market leaders in their respective industries, attracting significant attention from investors. Variations in total traded volume reflect shifts in investor 
+        sentiment and market dynamics. Higher trading volumes may indicate increased investor activity driven by factors such as company performance, industry trends, economic 
+        indicators, or geopolitical events. Companies with higher total traded volumes, such as Apple and Tesla, may experience greater market liquidity and price discovery, making them 
+        attractive options for investors seeking active trading opportunities.
+    __Company-Specific Events:__
+      - Company-specific events such as earnings announcements, product launches, mergers, acquisitions, or regulatory developments can significantly impact trading volumes. Positive 
+        news or favorable outcomes often lead to spikes in trading activity as investors react to new information. For instance, Tesla's high total traded volume could be attributed to 
+        its innovative product offerings, strong brand loyalty, and disruptive influence in the electric vehicle market. Similarly, Apple's leading position may be attributed to its 
+        consistent product innovation, robust financial performance, and loyal customer base.
+    __Volatility and Risk:__
+      - Higher trading volumes can indicate increased volatility in certain stocks, as larger volumes of shares are bought and sold within a given period. Volatility presents both 
+        opportunities and risks for investors, as it can amplify price movements and lead to potential gains or losses. Stocks with high trading volumes may experience greater price 
+        fluctuations in response to market news, leading to increased trading opportunities for investors seeking to capitalize on short-term price movements.
