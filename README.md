@@ -134,6 +134,7 @@ From the analysis, i made the following Key findings below:
         fluctuations in response to market news, leading to increased trading opportunities for investors seeking to capitalize on short-term price movements.
 
 
+
 - <img src="Total_Volume_Traded_By_Quarter_image.jpg" width="250">
 - **Total Volume Traded By Quater:**
 - In this analysis, the total volume traded by quarter provides insights into seasonal patterns and fluctuations in market activity over the period from 2015 to 2021. The data reveals distinct trends in trading volumes across the four quarters of the year, with Quarter 1 leading in terms of total volume traded, followed by Quarter 3, Quarter 2, and Quarter 4, respectively.
@@ -155,6 +156,7 @@ From the analysis, i made the following Key findings below:
           strategies and portfolio allocations in response to changing economic conditions, geopolitical events, or industry trends. Relating with these seasonal patterns in trading 
           activity can help investors anticipate market movements, identify trading opportunities, and manage risk effectively. It also provides valuable insights for analysts and 
           stakeholders seeking to interpret market trends and make informed decisions.
+
 
 - <img src="Average_Low_and_High_Price_Traded_By_Companies_image.jpg" width="400">
 - **Total Average Low And Hhigh Price Traded By Company:**
