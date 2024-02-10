@@ -132,3 +132,26 @@ From the analysis, i made the following Key findings below:
       - Higher trading volumes can indicate increased volatility in certain stocks, as larger volumes of shares are bought and sold within a given period. Volatility presents both 
         opportunities and risks for investors, as it can amplify price movements and lead to potential gains or losses. Stocks with high trading volumes may experience greater price 
         fluctuations in response to market news, leading to increased trading opportunities for investors seeking to capitalize on short-term price movements.
+
+
+- <img src="Total_Volume_Traded_By_Quarter_image.jpg" width="250">
+- **Total Volume Traded By Quater:**
+- In this analysis, the total volume traded by quarter provides insights into seasonal patterns and fluctuations in market activity over the period from 2015 to 2021. The data reveals distinct trends in trading volumes across the four quarters of the year, with Quarter 1 leading in terms of total volume traded, followed by Quarter 3, Quarter 2, and Quarter 4, respectively.
+  - __Interpretation and Insights:__
+    - __Seasonal Patterns and Market Activity:__
+        - The higher total volume traded in Quarter 1 compared to other quarters suggests a seasonal trend wherein the beginning of the year experiences increased market activity. This 
+          could be attributed to various factors such as the release of annual earnings reports, strategic planning by investors, or portfolio rebalancing at the start of the year.
+          Quarter 2 and Quarter 3 exhibit relatively similar total trading volumes, indicating sustained market activity throughout the middle of the year. This could coincide with 
+          events such as industry conferences, economic data releases, or company-specific announcements that stimulate trading activity. Quarter 4, while experiencing a slightly lower 
+          total volume traded compared to other quarters, still maintains significant market activity. This could be influenced by year-end factors such as tax considerations, holiday 
+          spending trends, or end-of-year portfolio adjustments.
+    - __Earnings Releases and Significant Announcements:__
+        - Higher trading volumes in certain quarters may coincide with earnings releases or other significant announcements that impact investor sentiment and market dynamics. Companies 
+          often release their financial results at the end of each quarter, prompting increased trading activity as investors react to the performance metrics and guidance provided.
+          Additionally, major corporate events such as product launches, mergers, acquisitions, or regulatory developments can drive trading volumes during specific quarters. Positive 
+          news or favorable outcomes may lead to spikes in trading activity as investors position themselves to capitalize on the opportunities presented.
+    - __Investor Behavior and Market Sentiment:__
+        - The fluctuation in trading volumes across quarters reflects changes in investor behavior and market sentiment throughout the year. Investors may adjust their trading 
+          strategies and portfolio allocations in response to changing economic conditions, geopolitical events, or industry trends. Relating with these seasonal patterns in trading 
+          activity can help investors anticipate market movements, identify trading opportunities, and manage risk effectively. It also provides valuable insights for analysts and 
+          stakeholders seeking to interpret market trends and make informed decisions.
