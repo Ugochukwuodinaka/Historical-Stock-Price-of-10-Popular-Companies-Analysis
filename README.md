@@ -73,12 +73,23 @@ Microsoft Table                                            |Tesla Table
 
 
 ## Data Model Design
-The data required for this analysis are located in various tables. Therefore, data modelling is required. . A star Schema is designed with the Sales Table representing the fact table containing all redundant data, and to which other dimension tables are modelled or connected to, using the column that is common. Sales Table has been modelled with:
+The data required for this analysis are located in various tables. Therefore, data modelling is required. A star Schema is designed with the Company_Lookup table representing the fact table containing all the company names, and to which other dimension tables are modelled or connected to, using the __Company__ column that is common. __Company Lookup__ table has been modelled with:
 
-SalesRep Table using the "SalesRep ID"
-Locations Table using the "Location ID"
-Products Table using "Product ID"
-Customers Tables via "Customer ID"
+- __Amazon__ table using the __"Company"__
+- __Apple__ table using the __"Company"__
+- __Facebook__ table using the __"Company"__
+- ___Google__ table using the __"Company"__
+- __Microsoft__ table using the __"Company"__
+- __Netflix__ table using the __"Company"__
+- __Tesla__ table using the __"Company"__
+- __Uber__ table using the __"Company"__
+- __Walmart__ table using the __"Company"__
+- __Zoom__ table using the __"Company"__
+- __10 Companies__ table using the __"Company"__
+
+The __Date Year__  table also has a relationship to the fact table through a direct relationship with the __10 Companies__ table using the key column __""Date"__ in both the __Date Year__ table and the __10 Companies__ table.
+- Because our screenshot couldn't contain all the tables and their relationships, i divided the view into 2. The Model View 1 displays all the 10 Company tables linked to the fact table,
+- Model View 2 displays a view of the __Company Lookup__ (fact) table, the __10 Companies__ table (dimension) table, the __Date Year__ table linked to the __10 Companys__ table, the 10 Companies tables linked to the __Company Lookup__ table and the __Data Analysis Expression__ (DAX) standing alone.
 
 Model View 1 (For all 10 Companies)                                                |                                
 :---------------------------------------------------------------------------------:|
