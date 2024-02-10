@@ -156,7 +156,7 @@ From the analysis, i made the following Key findings below:
           activity can help investors anticipate market movements, identify trading opportunities, and manage risk effectively. It also provides valuable insights for analysts and 
           stakeholders seeking to interpret market trends and make informed decisions.
 
-- <img src="Average_Low_and_High_Price_Traded_By_Companies_image.jpg" width="350">
+- <img src="Average_Low_and_High_Price_Traded_By_Companies_image.jpg" width="400">
 - **Total Average Low And Hhigh Price Traded By Company:**
 - In this analysis of the total average low and high prices traded by company, my analysis provides valuable insights into the price ranges within which stocks of different companies typically trade. Amazon leads with the highest total average low and high prices, followed by Google, Netflix, Zoom, and Tesla, among others.
   - __My Interpretation and Insights:__
