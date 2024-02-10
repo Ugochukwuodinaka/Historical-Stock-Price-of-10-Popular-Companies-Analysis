@@ -175,7 +175,7 @@ From the analysis, i made the following Key findings below:
          ranges may be perceived as more volatile and risky, while those with narrower price ranges may be considered more stable and predictable. 
 
 
-- <img src="Total_Traded_Volume_By_Company_Year_Trend_image.jpg" width="250">
+- <img src="Total_Traded_Volume_By_Company_Year_Trend_image.jpg" width="400">
 - **Total Traded Volume By Company Year Trend:**
 - In this analysis," width="250">
 - **Total Traded Volume By Company Year Trend:**
