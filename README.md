@@ -177,8 +177,6 @@ From the analysis, i made the following Key findings below:
 
 - <img src="Total_Traded_Volume_By_Company_Year_Trend_image.jpg" width="500">
 - **Total Traded Volume By Company Year Trend:**
-- In this analysis," width="250">
-- **Total Traded Volume By Company Year Trend:**
 - In this analysis,the multi-line chart presents the total volume traded by each company across the years 2015 to 2021. In analyzing this data, i provided insights into the long-term trends in trading volume, which may offer valuable insights into investor interest in the stocks of these companies and potential shifts in market sentiment or company fundamentals.
   - __Interpretation and Insights:__
     - __Overall Growth or Decline in Trading Volume:__ Across most companies, there is a general trend of increasing trading volume over the years, indicating growing investor interest 
