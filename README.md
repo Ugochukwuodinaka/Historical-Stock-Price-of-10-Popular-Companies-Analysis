@@ -1,5 +1,5 @@
 # Historical-Stock-Price-of-10-Popular-Companies-Analysis (2015-2021)
-![](Historical_Stock_Price_Of_10_Popular_Companies_image.jpg)
+![](images/Historical_Stock_Price_Of_10_Popular_Companies_image.jpg)
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -68,16 +68,16 @@ Each of these tables contains 7 columns. Here's an overview of the table columns
 
 Amazon Table                                               | Facebook Table        
 :---------------------------------------------------------:|:--------------------------------------------:|
-![](Amazon_table_Power_Query.png)                          | ![](Facebook_table_Power_Query.png)
+![](images/Amazon_table_Power_Query.png)                          | ![](images/Facebook_table_Power_Query.png)
 
 
 Microsoft Table                                            |Tesla Table
 :---------------------------------------------------------:|:------------------------------------------------------:|
-![](Microsoft_table_Power_Query.png)                       |![](Tesla_table_Power_Query.png)  
+![](images/Microsoft_table_Power_Query.png)                       |![](images/Tesla_table_Power_Query.png)  
                   
 10 Companies Table                                                                 |                                
 :---------------------------------------------------------------------------------:|
-![](10_Companies_table_Power_Query.png)                                            |                                
+![](images/10_Companies_table_Power_Query.png)                                            |                                
 
 
 
@@ -102,15 +102,15 @@ The __Date Year__  table also has a relationship to the fact table through a dir
 
 Model View 1 (For all 10 Companies)                                                |                                
 :---------------------------------------------------------------------------------:|
-![](Model_View_1.png)                                                              |           
+![](images/Model_View_1.png)                                                              |           
 
 Model View 2 (Showing the relationship between the  fact table and the dimensions tabel)      |                                
 :--------------------------------------------------------------------------------------------:|
-![](Model_View_2.png)                                                                         |           
+![](images/Model_View_2.png)                                                                         |           
 
 ## Visualization in Power BI:
 #### Report
-![](Historical_Stock_Price_Of_10_Popular_Companies_Dashboard.jpg)
+![](images/Historical_Stock_Price_Of_10_Popular_Companies_Dashboard.jpg)
 
 ### Project Analysis:
 From the analysis, i made the following Key findings below:
@@ -121,7 +121,7 @@ From the analysis, i made the following Key findings below:
 - Average Adjusted Close Price 447.01.
 - The Total Number of Companies is 10.
 
-- <img src="Total_Traded_Volume_By_Company_image.jpg" width="250">
+- <img src="images/Total_Traded_Volume_By_Company_image.jpg" width="250">
 - **The Total Traded Volume By Company:**
 - In this analysis of total traded volume by company, my analysis reveals significant disparities in trading activity across the ten popular companies. Apple leads the pack with a total traded volume of 243 billion shares, followed by Tesla with 67 billion shares and Microsoft with 53 billion shares. Facebook, Netflix, Uber, Walmart, and Amazon also exhibit substantial trading volumes, ranging from 39 billion to 15 billion shares. Zoom and Google, on the other hand, lag behind with relatively lower total traded volumes of 4 billion and 3 billion shares, respectively.
 
@@ -144,7 +144,7 @@ From the analysis, i made the following Key findings below:
 
 
 
-- <img src="Total_Volume_Traded_By_Quarter_image.jpg" width="250">
+- <img src="images/Total_Volume_Traded_By_Quarter_image.jpg" width="250">
 - **Total Volume Traded By Quater:**
 - In this analysis, the total volume traded by quarter provides insights into seasonal patterns and fluctuations in market activity over the period from 2015 to 2021. The data reveals distinct trends in trading volumes across the four quarters of the year, with Quarter 1 leading in terms of total volume traded, followed by Quarter 3, Quarter 2, and Quarter 4, respectively.
   - __My Interpretation and Insights:__
@@ -167,7 +167,7 @@ From the analysis, i made the following Key findings below:
           stakeholders seeking to interpret market trends and make informed decisions.
 
 
-- <img src="Average_Low_and_High_Price_Traded_By_Companies_image.jpg" width="500">
+- <img src="images/Average_Low_and_High_Price_Traded_By_Companies_image.jpg" width="500">
 - **Total Average Low And Hhigh Price Traded By Company:**
 - In this analysis of the total average low and high prices traded by company, my analysis provides valuable insights into the price ranges within which stocks of different companies typically trade. Amazon leads with the highest total average low and high prices, followed by Google, Netflix, Zoom, and Tesla, among others.
   - __My Interpretation and Insights:__
@@ -184,7 +184,7 @@ From the analysis, i made the following Key findings below:
          ranges may be perceived as more volatile and risky, while those with narrower price ranges may be considered more stable and predictable. 
 
 
-- <img src="Total_Traded_Volume_By_Company_Year_Trend_image.jpg" width="500">
+- <img src="images/Total_Traded_Volume_By_Company_Year_Trend_image.jpg" width="500">
 - **Total Traded Volume By Company Year Trend:**
 - In this analysis,the multi-line chart presents the total volume traded by each company across the years 2015 to 2021. In analyzing this data, i provided insights into the long-term trends in trading volume, which may offer valuable insights into investor interest in the stocks of these companies and potential shifts in market sentiment or company fundamentals.
   - __My Interpretation and Insights:__
@@ -204,7 +204,7 @@ From the analysis, i made the following Key findings below:
       identify potential opportunities or risks. Companies with consistent growth in trading volume over the years may be viewed favorably by investors as stable investment options with 
       strong growth prospects. Conversely, companies experiencing declining trading volume may face challenges or uncertainties that warrant closer scrutiny.
 
-- <img src="Total_Close_Price_By_Company_Year_Trend_image.jpg" width="500">
+- <img src="images/Total_Close_Price_By_Company_Year_Trend_image.jpg" width="500">
 - **Total Close Price By Company Year Trend:**
 - This multi-line chart presents the total close price of each company's stock across the years 2015 to 2021. In this analysis, i aim to provide insights into the performance trends of the companies' stocks over time and how changes in total close prices may reflect shifts in market valuation, investor expectations, or company performance.
   - __My Interpretation and Insights:__
