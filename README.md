@@ -30,7 +30,7 @@ This analysis project aims to achieve the following objectives:
 - Total Close Price by Year: Analysis of total closing prices over time can reveal the overall performance trends of the companies' stocks. Rising or falling total close prices may indicate changes in market valuation, investor expectations, or company performance.
 
 ### About The Dataset
-This dataset is made up of 10 tables for the 10 different companies historical stock price data and was supplied by [Quantum Analytics]((). These 10 tables has same columns for each and every of them.  
+This dataset is made up of 10 tables for the 10 different companies historical stock price data and was supplied by [Quantum Analytics]((https://www.quantumanalyticsco.org/). This is a [link](Raw_Data) to access the raw data folder, while you can click [here](ETL_Data) to access the transformed data folder. These 10 tables has same columns for each and every of them.  
 
 Each of these tables contains 7 columns. Here's an overview of the table columns along with explanations of the column names:
 - Date: This column represents the date on which the stock price data was recorded or reported. Each row in the dataset corresponds to a specific date.
