@@ -114,12 +114,12 @@ Model View 2 (Showing the relationship between the  fact table and the dimension
 
 ### Project Analysis:
 From the analysis, i made the following Key findings below:
-- The Total Traded Volume is 465bn.
-- The Total Average Traded Volume is 28.25M.
-- Average Traded Open Price is 409.76.
-- Average Traded Close Price is 409.81.
-- Average Adjusted Close Price 447.01.
-- The Total Number of Companies is 10.
+- The Total Traded Volume is __465bn.__
+- The Total Average Traded Volume is __28.25M.__
+- Average Traded Open Price is __409.76.__
+- Average Traded Close Price is __409.81.__
+- Average Adjusted Close Price __447.01.__
+- The Total Number of Companies is __10.__
 
 - <img src="images/Total_Traded_Volume_By_Company_image.jpg" width="250">
 - **The Total Traded Volume By Company:**
