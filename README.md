@@ -41,6 +41,15 @@ Each of these tables contains 7 columns. Here's an overview of the table columns
 - Adj Close: The "Adjusted Close" price adjusts the closing price of a stock to reflect any corporate actions such as dividends, stock splits, or mergers that occurred since the stock was last traded. It provides a more accurate reflection of the stock's true value.
 - Volume: The "Volume" column indicates the total number of shares of the stock that were traded during the trading day. It represents the level of trading activity for that particular stock on that day.
 
+### Skills Utilized
+1. Data Cleaning
+2. Data Modelling
+3. Data Visualiziation
+4. Descriptive Analytics
+5. Critical Thinking and Problem Solving
+6. Communication and Reporting
+
+
 ### Tools Used
 1. Power Query Editor
     - Was used to:
@@ -234,3 +243,4 @@ You can view and interact with this dashboard report on Historical Stock Price o
 - __Strong Financial Performance:__ It would be necessary they maintain strong financial performance by achieving revenue growth, profitability, and efficient capital allocation.
 - __Transparency and Stakeholder Engagement:__ They may need to foster transparency, open communication, and stakeholder engagement with investors, employees, customers, and the community. Providing regular updates on company performance, and strategic initiatives can build trust and credibility, ultimately driving shareholder value.
 
+## Thank You For Following Through!
