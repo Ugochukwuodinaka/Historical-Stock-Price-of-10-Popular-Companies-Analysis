@@ -1,5 +1,6 @@
 # Historical Stock Price Of 10-Popular Companies (2015-2021) Analysis
 ![](images/Historical_Stock_Price_Of_10_Popular_Companies_image.jpg)
+<br />
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -9,6 +10,7 @@
 - [Project Analysis](#project-analysis)
 - [Visuals in Power BI Report](#visuals-in-power-bi-report)
 - [5 Strategies These 10 Companies May Need To Implement To Grow Their Stock Prices](#5-strategies-these-10-companies-may-need-to-implement-to-grow-their-stock-prices)
+<br />
 
 ## Project Overview
 ### Introduction:
@@ -28,6 +30,8 @@ This analysis project aims to achieve the following objectives:
 - Average Low and High Price: Understanding the average low and high prices can help investors gauge the price range within which a stock typically trades. Deviations from the average may signal potential buying or selling opportunities.
 - Total Volume Traded by Year: Long-term trends in total traded volume may provide insights into the overall growth or decline in investor interest in the stocks of these companies. Significant changes in trading volume could be indicative of shifts in market sentiment or changes in company fundamentals.
 - Total Close Price by Year: Analysis of total closing prices over time can reveal the overall performance trends of the companies' stocks. Rising or falling total close prices may indicate changes in market valuation, investor expectations, or company performance.
+<br />
+<br />
 
 ### About The Dataset
 This dataset is made up of 10 tables for the 10 different companies historical stock price data and was provided by [Quantum Analytics](https://www.quantumanalyticsco.org/). This is a [link](Raw_Data) to access the raw data folder, while you can click [here](ETL_Data) to access the transformed data folder. These 10 tables has same columns for each and every of them.  
@@ -40,6 +44,8 @@ Each of these tables contains 7 columns. Here's an overview of the table columns
 - Close: The "Close" price is the final price at which the stock traded when the market closed on a particular trading day. It is the last price at which the stock was traded during that day.
 - Adj Close: The "Adjusted Close" price adjusts the closing price of a stock to reflect any corporate actions such as dividends, stock splits, or mergers that occurred since the stock was last traded. It provides a more accurate reflection of the stock's true value.
 - Volume: The "Volume" column indicates the total number of shares of the stock that were traded during the trading day. It represents the level of trading activity for that particular stock on that day.
+<br />
+<br />
 
 ### Skills Utilized
 1. Data Cleaning
@@ -48,7 +54,7 @@ Each of these tables contains 7 columns. Here's an overview of the table columns
 4. Descriptive Analytics
 5. Critical Thinking and Problem Solving
 6. Communication and Reporting
-
+<br />
 
 ### Tools Used
 1. Power Query Editor
@@ -64,6 +70,7 @@ Each of these tables contains 7 columns. Here's an overview of the table columns
         3. Page Navigation
         4. Filters
         5. Tooltips
+<br />
 
 ### Data Cleaning, Transformation and Loading using the Power Query Editor:
 1. I added the column __"Company"__ in each of the 10 tables to reflect the names of each company in their individual data table.
@@ -87,8 +94,8 @@ Microsoft Table                                            |Tesla Table
 10 Companies Table                                                                 |                                
 :---------------------------------------------------------------------------------:|
 ![](images/10_Companies_table_Power_Query.png)                                            |                                
-
-
+<br />
+<br />
 
 ## Data Model Design
 The data required for this analysis are located in various tables. Therefore, data modelling is required. A star Schema is designed with the Company_Lookup table representing the fact table containing all the company names, and to which other dimension tables are modelled or connected to, using the __Company__ column that is common. __Company Lookup__ table has been modelled with:
@@ -108,18 +115,24 @@ The data required for this analysis are located in various tables. Therefore, da
 The __Date Year__  table also has a relationship to the fact table through a direct relationship with the __10 Companies__ table using the key column __""Date"__ in both the __Date Year__ table and the __10 Companies__ table.
 - Because our screenshot couldn't contain all the tables and their relationships, i divided the view into 2. The Model View 1 displays all the 10 Company tables linked to the fact table,
 - Model View 2 displays a view of the __Company Lookup__ (fact) table, the __10 Companies__ table (dimension) table, the __Date Year__ table linked to the __10 Companys__ table, the 10 Companies tables linked to the __Company Lookup__ table and the __Data Analysis Expression__ (DAX) standing alone.  You can access the full Power BI project document [here](HISTORICAL%20STOCK%20PRICE%20OF%2010%20POPULAR%20COMPANIES.pbix).
+<br />
 
 Model View 1 (For all 10 Companies)                                                |                                
 :---------------------------------------------------------------------------------:|
 ![](images/Model_View_1.png)                                                              |           
+<br />
 
 Model View 2 (Showing the relationship between the  fact table and the dimensions tabel)      |                                
 :--------------------------------------------------------------------------------------------:|
 ![](images/Model_View_2.png)                                                                         |           
+<br />
+<br />
 
 ## Visualization in Power BI:
 #### Report
 ![](images/Historical_Stock_Price_Of_10_Popular_Companies_Dashboard.jpg)
+<br />
+<br />
 
 ### Project Analysis:
 From the analysis, i made the following Key findings below:
@@ -129,8 +142,11 @@ From the analysis, i made the following Key findings below:
 - Average Traded Close Price is __409.81.__
 - Average Adjusted Close Price __447.01.__
 - The Total Number of Companies is __10.__
+<br />
+<br />
 
 - <img src="images/Total_Traded_Volume_By_Company_image.jpg" width="250">
+
 - **The Total Traded Volume By Company:**
 - In this analysis of total traded volume by company, my analysis reveals significant disparities in trading activity across the ten popular companies. Apple leads the pack with a total traded volume of 243 billion shares, followed by Tesla with 67 billion shares and Microsoft with 53 billion shares. Facebook, Netflix, Uber, Walmart, and Amazon also exhibit substantial trading volumes, ranging from 39 billion to 15 billion shares. Zoom and Google, on the other hand, lag behind with relatively lower total traded volumes of 4 billion and 3 billion shares, respectively.
 
@@ -150,10 +166,11 @@ From the analysis, i made the following Key findings below:
       - Higher trading volumes can indicate increased volatility in certain stocks, as larger volumes of shares are bought and sold within a given period. Volatility presents both 
         opportunities and risks for investors, as it can amplify price movements and lead to potential gains or losses. Stocks with high trading volumes may experience greater price 
         fluctuations in response to market news, leading to increased trading opportunities for investors seeking to capitalize on short-term price movements.
-
-
+<br />
+<br />
 
 - <img src="images/Total_Volume_Traded_By_Quarter_image.jpg" width="250">
+
 - **Total Volume Traded By Quater:**
 - In this analysis, the total volume traded by quarter provides insights into seasonal patterns and fluctuations in market activity over the period from 2015 to 2021. The data reveals distinct trends in trading volumes across the four quarters of the year, with Quarter 1 leading in terms of total volume traded, followed by Quarter 3, Quarter 2, and Quarter 4, respectively.
   - __My Interpretation and Insights:__
@@ -174,9 +191,11 @@ From the analysis, i made the following Key findings below:
           strategies and portfolio allocations in response to changing economic conditions, geopolitical events, or industry trends. Relating with these seasonal patterns in trading 
           activity can help investors anticipate market movements, identify trading opportunities, and manage risk effectively. It also provides valuable insights for analysts and 
           stakeholders seeking to interpret market trends and make informed decisions.
-
+<br />
+<br />
 
 - <img src="images/Average_Low_and_High_Price_Traded_By_Companies_image.jpg" width="500">
+
 - **Total Average Low And Hhigh Price Traded By Company:**
 - In this analysis of the total average low and high prices traded by company, my analysis provides valuable insights into the price ranges within which stocks of different companies typically trade. Amazon leads with the highest total average low and high prices, followed by Google, Netflix, Zoom, and Tesla, among others.
   - __My Interpretation and Insights:__
@@ -191,9 +210,11 @@ From the analysis, i made the following Key findings below:
     - __Risk Assessment:__
        - Knowledge of the average low and high prices traded by a company allows investors to assess the risk associated with trading that particular stock. Stocks with wider price 
          ranges may be perceived as more volatile and risky, while those with narrower price ranges may be considered more stable and predictable. 
-
+<br />
+<br />
 
 - <img src="images/Total_Traded_Volume_By_Company_Year_Trend_image.jpg" width="500">
+
 - **Total Traded Volume By Company Year Trend:**
 - In this analysis,the multi-line chart presents the total volume traded by each company across the years 2015 to 2021. In analyzing this data, i provided insights into the long-term trends in trading volume, which may offer valuable insights into investor interest in the stocks of these companies and potential shifts in market sentiment or company fundamentals.
   - __My Interpretation and Insights:__
@@ -212,8 +233,11 @@ From the analysis, i made the following Key findings below:
     - __Long-Term Investment Trends:__ The long-term trends in total traded volume provide valuable insights for investors seeking to understand the broader investment landscape and 
       identify potential opportunities or risks. Companies with consistent growth in trading volume over the years may be viewed favorably by investors as stable investment options with 
       strong growth prospects. Conversely, companies experiencing declining trading volume may face challenges or uncertainties that warrant closer scrutiny.
+<br />
+<br />
 
 - <img src="images/Total_Close_Price_By_Company_Year_Trend_image.jpg" width="500">
+
 - **Total Close Price By Company Year Trend:**
 - This multi-line chart presents the total close price of each company's stock across the years 2015 to 2021. In this analysis, i aim to provide insights into the performance trends of the companies' stocks over time and how changes in total close prices may reflect shifts in market valuation, investor expectations, or company performance.
   - __My Interpretation and Insights:__
@@ -231,10 +255,14 @@ From the analysis, i made the following Key findings below:
       conditions, industry trends, regulatory developments, and geopolitical events can impact investor sentiment and drive stock price movements. A deep dive into the underlying 
       drivers of changes in total close prices allows investors to make informed decisions and adapt their investment strategies to capitalize on opportunities or mitigate risks in the 
       market.
-
+<br />
+<br />
 
 ## Visuals in Power BI Report:
 You can view and interact with this dashboard report on Historical Stock Price of 10 Popular Companies (2015-2021) Analysis [here](https://app.powerbi.com/view?r=eyJrIjoiM2M4OGY4OWQtMzlmNS00OTljLTgyNGUtYTU2NmVmZjFjN2IyIiwidCI6IjdlYzI5NjU5LTNjZjItNGYzZi1hYmIzLWE3MjJlZGY3ZmYyZCJ9).
+<br />
+<br />
+<br />
 
 ## 5 Strategies These 10 Companies May Need To Implement To Grow Their Stock Prices
 - __Continuous Innovation:__ These 10 Companies may need to invest in research and development (R&D) to innovate and develop new products, services, or technologies that address emerging market needs and trends. Continuous innovation can enhance competitive advantage and drive revenue growth.
@@ -242,5 +270,7 @@ You can view and interact with this dashboard report on Historical Stock Price o
 - __Digital Transformation:__ They would need to embrace digital transformation initiatives to leverage technology for enhanced operational efficiency, customer engagement, and data-driven decision-making. Investing in digital infrastructure and online platforms can drive growth in the digital economy.
 - __Strong Financial Performance:__ It would be necessary they maintain strong financial performance by achieving revenue growth, profitability, and efficient capital allocation.
 - __Transparency and Stakeholder Engagement:__ They may need to foster transparency, open communication, and stakeholder engagement with investors, employees, customers, and the community. Providing regular updates on company performance, and strategic initiatives can build trust and credibility, ultimately driving shareholder value.
+<br />
+<br />
 
 ## Thank You For Following Through!
