@@ -219,45 +219,23 @@ Monitoring these events and understanding their potential impact on investor sen
 - <img src="images/Total_Traded_Volume_By_Company_Year_Trend_image.jpg" width="500">
 
 - **Total Traded Volume By Company Year Trend:**
-- In this analysis,the multi-line chart presents the total volume traded by each company across the years 2015 to 2021. In analyzing this data, i provided insights into the long-term trends in trading volume, which may offer valuable insights into investor interest in the stocks of these companies and potential shifts in market sentiment or company fundamentals.
-  - __My Interpretation and Insights:__
-    - __Overall Growth or Decline in Trading Volume:__ Across most companies, there is a general trend of increasing trading volume over the years, indicating growing investor interest 
-      in these stocks. For example, Amazon, Apple, Microsoft, and Tesla have experienced consistent growth in trading volume from 2015 to 2021. This upward trend in trading volume 
-      suggests a positive outlook towards these companies by investors over the long term. It may be attributed to factors such as company performance, industry trends, market dynamics, 
-      and macroeconomic conditions.
-    - __Company-Specific Trends:__ Some companies exhibit fluctuations or irregularities in trading volume over the years. For instance, Uber and Zoom, being relatively newer companies, 
-      show significant increases in trading volume from 2019 onwards, reflecting heightened investor interest following their initial public offerings (IPOs). Netflix shows a slight 
-      decline in trading volume from 2015 to 2021, which could be attributed to factors such as increased competition in the streaming industry or changes in consumer preferences. 
-      However, the overall trend remains relatively stable.
-    - __Indicators of Market Sentiment and Company Fundamentals:__ Significant changes in trading volume can be indicative of shifts in market sentiment or changes in company 
-      fundamentals. For example, sudden spikes in trading volume may coincide with major news events, earnings releases, product launches, or regulatory announcements that impact 
-      investor perceptions. Investors often interpret changes in trading volume as signals of market activity and adjust their investment strategies accordingly. Higher trading volumes 
-      may reflect increased investor confidence or speculation, while lower volumes may signal caution or lack of interest.
-    - __Long-Term Investment Trends:__ The long-term trends in total traded volume provide valuable insights for investors seeking to understand the broader investment landscape and 
-      identify potential opportunities or risks. Companies with consistent growth in trading volume over the years may be viewed favorably by investors as stable investment options with 
-      strong growth prospects. Conversely, companies experiencing declining trading volume may face challenges or uncertainties that warrant closer scrutiny.
+  - __Overall Growth or Decline in Trading Volume:__ Across most companies, there is a general trend of increasing trading volume over the years, indicating growing investor interest in these stocks. For example, Amazon, Apple, Microsoft, and Tesla have experienced consistent growth in trading volume from 2015 to 2021. This upward trend in trading volume suggests a positive outlook towards these companies by investors over the long term. It may be attributed to factors such as company performance, industry trends, market dynamics, and macroeconomic conditions.
+  - __Company-Specific Trends:__ Some companies exhibit fluctuations or irregularities in trading volume over the years. For instance, Uber and Zoom, being relatively newer companies, show significant increases in trading volume from 2019 onwards, reflecting heightened investor interest following their initial public offerings (IPOs). Netflix shows a slight decline in trading volume from 2015 to 2021, which could be attributed to factors such as increased competition in the streaming industry or changes in consumer preferences. However, the overall trend remains relatively stable.
+  - __Indicators of Market Sentiment and Company Fundamentals:__ Significant changes in trading volume can be indicative of shifts in market sentiment or changes in company fundamentals. For example, sudden spikes in trading volume may coincide with major news events, earnings releases, product launches, or regulatory announcements that impact investor perceptions. Investors often interpret changes in trading volume as signals of market activity and adjust their investment strategies accordingly. Higher trading volumes may reflect increased investor confidence or speculation, while lower volumes may signal caution or lack of interest.
+  - __Long-Term Investment Trends:__ The long-term trends in total traded volume provide valuable insights for investors seeking to understand the broader investment landscape and identify potential opportunities or risks. Companies with consistent growth in trading volume over the years may be viewed favorably by investors as stable investment options with strong growth prospects. Conversely, companies experiencing declining trading volume may face challenges or uncertainties that warrant closer
+
 <br />
 <br />
 
 - <img src="images/Total_Close_Price_By_Company_Year_Trend_image.jpg" width="500">
 
 - **Total Close Price By Company Year Trend:**
-- This multi-line chart presents the total close price of each company's stock across the years 2015 to 2021. In this analysis, i aim to provide insights into the performance trends of the companies' stocks over time and how changes in total close prices may reflect shifts in market valuation, investor expectations, or company performance.
+- This multi-line chart presents the total close price of each company's stock across the years 2015 to 2021. In this analysis, I aim to provide insights into the performance trends of the companies' stocks over time and how changes in total close prices may reflect shifts in market valuation, investor expectations, or company performance.
   - __My Interpretation and Insights:__
-    - __Overall Performance Trends:__ The data illustrates varying trends in the total close prices of each company's stock over the seven-year period. Some companies exhibit consistent 
-      growth in close prices, while others experience fluctuations or irregularities. For instance, Amazon, Apple, Facebook, Google, Microsoft, Netflix, Tesla, Walmart, Uber, and Zoom 
-      all demonstrate different patterns in their total close prices over time, reflecting the unique dynamics of each company's business and market environment.
-    - __Changes in Market Valuation and Investor Expectations:__ Rising total close prices over time may indicate increasing market valuation, investor confidence, or positive sentiment 
-      towards the company's future prospects. It suggests that investors are willing to pay higher prices for the company's stock, reflecting expectations of future growth and 
-      profitability. Conversely, falling total close prices may signal declining market valuation, investor concerns, or negative sentiment towards the company's performance.
-    - __Impact of Company Performance:__ Changes in total close prices can also reflect shifts in company performance, such as changes in revenue, earnings, market share, or strategic 
-      initiatives. Positive developments, such as strong financial results or successful product launches, can drive stock prices higher, while negative developments may lead to 
-      declines in stock prices. For example, Tesla's significant increase in total close price from 2015 to 2021 may be attributed to its impressive growth trajectory, technological 
-      innovation, and increasing market share in the electric vehicle industry.
-    - __Investor Behavior and Market Dynamics:__ Investor behavior and broader market dynamics also influence changes in total close prices over time. Factors such as macroeconomic 
-      conditions, industry trends, regulatory developments, and geopolitical events can impact investor sentiment and drive stock price movements. A deep dive into the underlying 
-      drivers of changes in total close prices allows investors to make informed decisions and adapt their investment strategies to capitalize on opportunities or mitigate risks in the 
-      market.
+    - __Overall Performance Trends:__ The data shows different trends in the total close prices of each company's stock over the seven-year period. Some companies consistently have higher close prices, while others have more ups and downs. For example, Amazon, Apple, Facebook, Google, Microsoft, Netflix, Tesla, Walmart, Uber, and Zoom all have unique patterns in their total close prices over time because each company operates in its own way and faces different market conditions.
+    - __Changes in Market Valuation and Investor Expectations:__ Increasing total close prices over time may mean that the market values the company more and investors are optimistic about its future. It suggests that investors are willing to pay more for the company's stock because they expect it to grow and make more money. On the other hand, decreasing total close prices may indicate that the market values the company less and investors are worried about its performance.
+    - __Impact of Company Performance:__ Changes in total close prices can also show how well or poorly a company is doing. This includes things like changes in how much money it makes, its profits, its share of the market compared to competitors, or its plans for growth. Good news like strong financial results or successful new products can make stock prices go up, while bad news can make them go down. For example, Tesla's huge increase in total close price from 2015 to 2021 may be because it has been growing quickly, coming up with new ideas for technology, and getting more customers than other electric car companies.
+    - __Investor Behavior and Market Dynamics:__ The way investors act and what's happening in the market also affect changes in total close prices over time. Things like how the economy is doing overall, trends in different industries, new rules from the government, or big events around the world can make investors feel more positive or negative and cause stock prices to move. Looking closely at what's really behind changes in total close prices helps investors make smart choices and change their investment plans to take advantage of good things or protect themselves from bad things.
 <br />
 <br />
 
