@@ -255,3 +255,4 @@ You can view and interact with this dashboard report on Historical Stock Price o
 <br />
 
 ## Thank You For Following Through!
+![](images/hands-holding-words-thank-you.jpg)
