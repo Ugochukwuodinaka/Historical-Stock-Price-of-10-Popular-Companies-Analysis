@@ -170,8 +170,8 @@ My analysis OF thE total traded volume by a company brings out overwhelming disp
 - In this case, the total volume that is traded quarterly will go a long way in bringing out the seasonal trends or fluctuations in market activity from the year 2015 to 2021. Since the data clearly reflects trends of the total trading volumes through the four quarters of a year, the first one, therefore, has the highest total volume traded, followed by Quarter 3, Quarter 2, and then finally Quarter 4.
   
 - __My Interpretation and Insights:__
-      - **Seasonal Patterns and Market Activity:**
-         - The trading volume in different quarters of the year can provide insights into seasonal patterns and market activity:
+  -  __Seasonal Patterns and Market Activity:__
+         1. The trading volume in different quarters of the year can provide insights into seasonal patterns and market activity:
             - __Quarter 1:__ Higher total volume traded compared to other quarters suggests increased market activity at the beginning of the year. Possible reasons for this trend 
               include:
                - Release of annual earnings reports
@@ -188,8 +188,8 @@ My analysis OF thE total traded volume by a company brings out overwhelming disp
                - Holiday spending trends
                - End-of-year portfolio adjustments
 
-      - **Earnings Releases and Significant Announcements:**
-         - The timing of earnings releases and other significant announcements can also impact trading volumes:
+  - __Earnings Releases and Significant Announcements:__
+         2. The timing of earnings releases and other significant announcements can also impact trading volumes:
 
 Earnings Releases: Companies often release their financial results at the end of each quarter, prompting increased trading activity as investors react to the performance metrics and guidance provided.
 Major Corporate Events: Significant events such as product launches, mergers, acquisitions, or regulatory developments can also drive trading volumes during specific quarters. Positive news or favorable outcomes may lead to spikes in trading activity as investors position themselves to capitalize on the opportunities presented.
