@@ -171,7 +171,7 @@ My analysis OF thE total traded volume by a company brings out overwhelming disp
   
 - __My Interpretation and Insights:__
   -  __Seasonal Patterns and Market Activity:__
-     1. The trading volume in different quarters of the year can provide insights into seasonal patterns and market activity:
+     - The trading volume in different quarters of the year can provide insights into seasonal patterns and market activity:
         - Quarter 1: Higher total volume traded compared to other quarters suggests increased market activity at the beginning of the year. Possible reasons for this trend include:
           - Release of annual earnings reports
           - Strategic planning by investors
