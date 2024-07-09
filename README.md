@@ -25,25 +25,25 @@ This analysis project aims to achieve the following objectives:
 - Total Close Price by Year: Investigate the trend in the total closing prices of the stocks traded by the ten companies annually, providing insights into the overall performance and valuation trends.
 
 ### Expected Findings:
-- Total Traded Volume: Variations in total traded volume may reflect shifts in investor sentiment, market dynamics, or company-specific events. Higher trading volumes might indicate increased investor interest or volatility in certain stocks.
-- Total Volume Traded Quarterly: Quarterly analysis of trading volumes can reveal seasonal patterns or fluctuations in market activity. For instance, higher trading volumes in certain quarters may coincide with earnings releases or other significant announcements.
-- Average Low and High Price: Understanding the average low and high prices can help investors gauge the price range within which a stock typically trades. Deviations from the average may signal potential buying or selling opportunities.
-- Total Volume Traded by Year: Long-term trends in total traded volume may provide insights into the overall growth or decline in investor interest in the stocks of these companies. Significant changes in trading volume could be indicative of shifts in market sentiment or changes in company fundamentals.
-- Total Close Price by Year: Analysis of total closing prices over time can reveal the overall performance trends of the companies' stocks. Rising or falling total close prices may indicate changes in market valuation, investor expectations, or company performance.
+- __Total Traded Volume:__ This might indicate whether total traded volume is changing over time, signaling a shift in investor sentiment or market dynamics, or some company-specific event. High trading volumes may precisely represent greater investor interest or stock volatility.
+- __Total Volume Traded Quarterly:__ Quarterly changes in traded volumes will identify seasonal or other periodic fluctuations in the level of activity. For example, it can be seen that the trading volume may be higher in certain quarters, which may correspond to earnings announcements or some other important news events.
+- __Average Low and High Price:__ Knowing the average low and high prices can give one a feel for the range within which a stock commonly trades. Huge variations from this may present possible buying or selling opportunities.
+- __Total Volume Traded by Year:__ Long-term trends in total volumes may indicate to the investor whether investors, generally, have interest in the stocks of these companies. Tectonic shifts in trading volumes characterize changes in sentiment or a change in how the company's fundamentals are valued by the market.
+- __Total Close Price by Year:__ Long-term Analysis—Total closing prices can show a trend in the overall performance of the companies' stocks. Increasing or decreasing total close prices are major pointers of changes in either the market's valuation, investor expectations, or company performance.
 <br />
 <br />
 
 ### About The Dataset
-This dataset is made up of 10 tables for the 10 different companies historical stock price data and was provided by [Quantum Analytics](https://www.quantumanalyticsco.org/). This is a [link](Raw_Data) to access the raw data folder, while you can click [here](ETL_Data) to access the transformed data folder. These 10 tables has same columns for each and every of them.  
+The dataset had 10 tables for the historical stock price data of 10 different companies. The data is provided by Quantum Analytics. Here is the link to the raw data folder; you can click here to find the transformed data folder. Now, for all these 10 tables, the column setup remains exactly the same.
 
-Each of these tables contains 7 columns. Here's an overview of the table columns along with explanations of the column names:
-- Date: This column represents the date on which the stock price data was recorded or reported. Each row in the dataset corresponds to a specific date.
-- Open: The "Open" price is the price at which a stock started trading when the market opened on a particular trading day. It is the first price at which the stock was traded during that day.
-- High: The "High" price indicates the highest price at which the stock traded during the trading day. It represents the peak price reached by the stock during that day.
-- Low: The "Low" price signifies the lowest price at which the stock traded during the trading day. It represents the lowest price reached by the stock during that day.
-- Close: The "Close" price is the final price at which the stock traded when the market closed on a particular trading day. It is the last price at which the stock was traded during that day.
-- Adj Close: The "Adjusted Close" price adjusts the closing price of a stock to reflect any corporate actions such as dividends, stock splits, or mergers that occurred since the stock was last traded. It provides a more accurate reflection of the stock's true value.
-- Volume: The "Volume" column indicates the total number of shares of the stock that were traded during the trading day. It represents the level of trading activity for that particular stock on that day.
+All of these tables are 7 column tables. Given below is the description of the table columns followed by the column name explanation:
+- __Date:__ This column shows the date of record or reporting of stock price data. Here, every row corresponds to each day in the dataset.
+- __Open:__ This is the open price of a security or the price it began selling for when the market opened on any given day of trading. It is the first quoted price for such security on that particular day.
+- __High:__ The highest price traded by that security on an official trading day. This is also referred to as the peak price that has been reached by security on that day.
+- __Low:__ The price of "Low" is the lowest that the stock has traded for during the trading day. It just depicts the lowest price touched by the stock on that particular day.
+- __Close:__ The price of "Close" is always the last price at which the stock closed when the market closes on a particular trading day. It's just the last price of the trade conducted on that day for that particular stock.
+- __Adjusted close:__ "Adjusted Close" pricing refers to the close price of a stock at any given time; however, it readjusts for corporate actions that have taken place since its issue. This helps give a more distinctive, true value of the stock price.
+- __Volume:__ This column indicates the total number of shares of a given stock that traded during the trading day. Essentially, it is the level of trading activity of that particular stock for the day.
 <br />
 <br />
 
@@ -67,19 +67,18 @@ Each of these tables contains 7 columns. Here's an overview of the table columns
     - The following Power BI Features were incorporated:
         1. DAX
         2. Quick Measures
-        3. Page Navigation
-        4. Filters
-        5. Tooltips
+        3. Filters
+        4. Tooltips
 <br />
 
 ### Data Cleaning, Transformation and Loading using the Power Query Editor:
-1. I added the column __"Company"__ in each of the 10 tables to reflect the names of each company in their individual data table.
-2. I Cceated a new table __"Company Lookup"__ with only one column: __"Company"__ to be able to relate with all the other tables with the "Company" key.
-3. I created a new table __"10 Companies"__ housing all the data in each and every of the dataset table columns.
-4. I created a table __"Date Year"__ to house the __"Date"__ seperately.
-5. I added a new column __"Quarter"__ in the __"10 Companies"__ table to handle stock transactions by the 4 quaters of the year.
-6. I transformed every other column type to its appropriate column type.
-7. After data cleaning and tranformation was performed all the tables. The tables appeared to be clean. The quality of each column is 100% with no error or nulls. Below is a preview of some of the tables which are __Amazon__, __Facebook__, __Microsoft__, __Tesla__, and __10 Companies__ tables:
+- Added the column __"Company"__ in each of the 10 tables to reflect the names of each company in their individual data table.
+- Created a new table __"Company Lookup"__ with only one column: __"Company"__ to be able to relate with all the other tables with the "Company" key.
+- Created a new table __"10 Companies"__ housing all the data in each and every of the dataset table columns.
+- Created a table __"Date Year"__ to house the __"Date"__ seperately.
+- Added a new column __"Quarter"__ in the __"10 Companies"__ table to handle stock transactions by the 4 quaters of the year.
+- Transformed every other column type to its appropriate column type.
+- After data cleaning and tranformation were performed on all the tables. The tables appeared to be clean. The quality of each column became 100% with no error or nulls. Below is a preview of some of the tables which are __Amazon__, __Facebook__, __Microsoft__, __Tesla__, and __10 Companies__ tables:
 
 
 Amazon Table                                               | Facebook Table        
@@ -98,7 +97,7 @@ Microsoft Table                                            |Tesla Table
 <br />
 
 ## Data Model Design
-The data required for this analysis are located in various tables. Therefore, data modelling is required. A star Schema is designed with the Company_Lookup table representing the fact table containing all the company names, and to which other dimension tables are modelled or connected to, using the __Company__ column that is common. __Company Lookup__ table has been modelled with:
+The data required for this analysis are located in various tables. Therefore, data modelling is required. A star Schema is designed with the Company_Lookup table representing the __fact table__ containing all the company names, and to which other __dimension tables__ are modelled or connected, using the __Company__ column that is common. __Company Lookup__ table has been modelled with:
 
 - __Amazon__ table using the __"Company"__
 - __Apple__ table using the __"Company"__
@@ -112,9 +111,9 @@ The data required for this analysis are located in various tables. Therefore, da
 - __Zoom__ table using the __"Company"__
 - __10 Companies__ table using the __"Company"__
 
-The __Date Year__  table also has a relationship to the fact table through a direct relationship with the __10 Companies__ table using the key column __""Date"__ in both the __Date Year__ table and the __10 Companies__ table.
-- Because our screenshot couldn't contain all the tables and their relationships, i divided the view into 2. The Model View 1 displays all the 10 Company tables linked to the fact table,
-- Model View 2 displays a view of the __Company Lookup__ (fact) table, the __10 Companies__ table (dimension) table, the __Date Year__ table linked to the __10 Companys__ table, the 10 Companies tables linked to the __Company Lookup__ table and the __Data Analysis Expression__ (DAX) standing alone.  You can access the full Power BI project document [here](HISTORICAL%20STOCK%20PRICE%20OF%2010%20POPULAR%20COMPANIES.pbix).
+The __Date Year__  table also has a relationship with the fact table through a direct relationship with the __10 Companies__ table using the key column __"Date"__ in both the __Date Year__ table and the __10 Companies__ table.
+- Because our screenshot couldn't contain all the tables and their relationships, I divided the view into 2. The Model View 1 displays all the 10 Company tables linked to the fact table,
+- Model View 2 displays a view of the __Company Lookup__ (fact) table, the __10 Companies__ table (dimension) table, the __Date Year__ table linked to the __10 Company's__ table, the 10 Companies tables linked to the __Company Lookup__ table and the __Data Analysis Expression__ (DAX) standing alone.  You can access the full Power BI project document [here](HISTORICAL%20STOCK%20PRICE%20OF%2010%20POPULAR%20COMPANIES.pbix).
 <br />
 
 Model View 1 (For all 10 Companies)                                                |                                
@@ -122,7 +121,7 @@ Model View 1 (For all 10 Companies)                                             
 ![](images/Model_View_1.png)                                                              |           
 <br />
 
-Model View 2 (Showing the relationship between the  fact table and the dimensions tabel)      |                                
+Model View 2 (Showing the relationship between the fact table and the dimensions tabel)      |                                
 :--------------------------------------------------------------------------------------------:|
 ![](images/Model_View_2.png)                                                                         |           
 <br />
@@ -148,49 +147,63 @@ From the analysis, i made the following Key findings below:
 - <img src="images/Total_Traded_Volume_By_Company_image.jpg" width="250">
 
 - **The Total Traded Volume By Company:**
-- In this analysis of total traded volume by company, my analysis reveals significant disparities in trading activity across the ten popular companies. Apple leads the pack with a total traded volume of 243 billion shares, followed by Tesla with 67 billion shares and Microsoft with 53 billion shares. Facebook, Netflix, Uber, Walmart, and Amazon also exhibit substantial trading volumes, ranging from 39 billion to 15 billion shares. Zoom and Google, on the other hand, lag behind with relatively lower total traded volumes of 4 billion and 3 billion shares, respectively.
+My analysis OF thE total traded volume by a company brings out overwhelming disparities in trading activity among the ten popular companies. The conclusion shows that Apple leads in terms of volume traded, having 243 billion shares traded, followed by Tesla and Microsoft with 67 billion and 53 billion, respectively. Other companies, like Facebook, Netflix, Uber, Walmart, and Amazon, trade at volumes running from 39 to 15 billion shares in that order. Zoom and Google are completely out of this pace, with quite considerably lower total traded volumes of 4 billion and 3 billion shares, correspondingly
 
 - __My Interpretation and Insights:__
-  - __Investor Interest and Market Dynamics:__
-      - The substantial total traded volume for companies like Apple, Tesla, and Microsoft suggests heightened investor interest and confidence in these stocks. These companies are 
-        often considered market leaders in their respective industries, attracting significant attention from investors. Variations in total traded volume reflect shifts in investor 
-        sentiment and market dynamics. Higher trading volumes may indicate increased investor activity driven by factors such as company performance, industry trends, economic 
-        indicators, or geopolitical events. Companies with higher total traded volumes, such as Apple and Tesla, may experience greater market liquidity and price discovery, making them 
-        attractive options for investors seeking active trading opportunities.
-  -  __Company-Specific Events:__
-      - Company-specific events such as earnings announcements, product launches, mergers, acquisitions, or regulatory developments can significantly impact trading volumes. Positive 
-        news or favorable outcomes often lead to spikes in trading activity as investors react to new information. For instance, Tesla's high total traded volume could be attributed to 
-        its innovative product offerings, strong brand loyalty, and disruptive influence in the electric vehicle market. Similarly, Apple's leading position may be attributed to its 
-        consistent product innovation, robust financial performance, and loyal customer base.
-  -  __Volatility and Risk:__
-      - Higher trading volumes can indicate increased volatility in certain stocks, as larger volumes of shares are bought and sold within a given period. Volatility presents both 
-        opportunities and risks for investors, as it can amplify price movements and lead to potential gains or losses. Stocks with high trading volumes may experience greater price 
-        fluctuations in response to market news, leading to increased trading opportunities for investors seeking to capitalize on short-term price movements.
+   - **Investor Interest and Market Dynamics:**
+      - The substantial total traded volume for companies like Apple, Tesla, and Microsoft suggests heightened investor interest and confidence in these stocks. These companies are often considered market leaders in their respective industries, attracting significant attention from investors.
+      - Variations in total traded volume reflect shifts in investor sentiment and market dynamics. Higher trading volumes may indicate increased investor activity driven by factors such as company performance, industry trends, economic indicators, or geopolitical events.
+      - Companies with higher total traded volumes, such as Apple and Tesla, may experience greater market liquidity and price discovery, making them attractive options for investors seeking active trading opportunities.
+    - **Company-Specific Events:**
+      - Company-specific events such as earnings announcements, product launches, mergers, acquisitions, or regulatory developments can significantly impact trading volumes. Positive news or favorable outcomes often lead to spikes in trading activity as investors react to new information.
+      -  For instance, Tesla's high total traded volume could be attributed to its innovative product offerings, strong brand loyalty, and disruptive influence in the electric vehicle market. Similarly, Apple's leading position may be attributed to its consistent product innovation, robust financial performance, and loyal customer base.
+    - **Volatility and Risk:**
+      - Higher trading volumes can indicate increased volatility in certain stocks, as larger volumes of shares are bought and sold within a given period.
+      - Volatility presents both opportunities and risks for investors, as it can amplify price movements and lead to potential gains or losses.
+      - Stocks with high trading volumes may experience greater price fluctuations in response to market news, leading to increased trading opportunities for investors seeking to capitalize on short-term
 <br />
 <br />
 
 - <img src="images/Total_Volume_Traded_By_Quarter_image.jpg" width="250">
 
 - **Total Volume Traded By Quater:**
-- In this analysis, the total volume traded by quarter provides insights into seasonal patterns and fluctuations in market activity over the period from 2015 to 2021. The data reveals distinct trends in trading volumes across the four quarters of the year, with Quarter 1 leading in terms of total volume traded, followed by Quarter 3, Quarter 2, and Quarter 4, respectively.
-  - __My Interpretation and Insights:__
-    - __Seasonal Patterns and Market Activity:__
-        - The higher total volume traded in Quarter 1 compared to other quarters suggests a seasonal trend wherein the beginning of the year experiences increased market activity. This 
-          could be attributed to various factors such as the release of annual earnings reports, strategic planning by investors, or portfolio rebalancing at the start of the year.
-          Quarter 2 and Quarter 3 exhibit relatively similar total trading volumes, indicating sustained market activity throughout the middle of the year. This could coincide with 
-          events such as industry conferences, economic data releases, or company-specific announcements that stimulate trading activity. Quarter 4, while experiencing a slightly lower 
-          total volume traded compared to other quarters, still maintains significant market activity. This could be influenced by year-end factors such as tax considerations, holiday 
-          spending trends, or end-of-year portfolio adjustments.
-    - __Earnings Releases and Significant Announcements:__
-        - Higher trading volumes in certain quarters may coincide with earnings releases or other significant announcements that impact investor sentiment and market dynamics. Companies 
-          often release their financial results at the end of each quarter, prompting increased trading activity as investors react to the performance metrics and guidance provided.
-          Additionally, major corporate events such as product launches, mergers, acquisitions, or regulatory developments can drive trading volumes during specific quarters. Positive 
-          news or favorable outcomes may lead to spikes in trading activity as investors position themselves to capitalize on the opportunities presented.
-    - __Investor Behavior and Market Sentiment:__
-        - The fluctuation in trading volumes across quarters reflects changes in investor behavior and market sentiment throughout the year. Investors may adjust their trading 
-          strategies and portfolio allocations in response to changing economic conditions, geopolitical events, or industry trends. Relating with these seasonal patterns in trading 
-          activity can help investors anticipate market movements, identify trading opportunities, and manage risk effectively. It also provides valuable insights for analysts and 
-          stakeholders seeking to interpret market trends and make informed decisions.
+- In this case, the total volume that is traded quarterly will go a long way in bringing out the seasonal trends or fluctuations in market activity from the year 2015 to 2021. Since the data clearly reflects trends of the total trading volumes through the four quarters of a year, the first one, therefore, has the highest total volume traded, followed by Quarter 3, Quarter 2, and then finally Quarter 4.
+  
+- __My Interpretation and Insights:__
+      - **Seasonal Patterns and Market Activity:**
+         - The trading volume in different quarters of the year can provide insights into seasonal patterns and market activity:
+            - __Quarter 1:__ Higher total volume traded compared to other quarters suggests increased market activity at the beginning of the year. Possible reasons for this trend 
+              include:
+               - Release of annual earnings reports
+               - Strategic planning by investors
+               - Portfolio rebalancing at the start of the year
+            - __Quarter 2 and Quarter 3:__ These two quarters exhibit relatively similar total trading volumes, indicating sustained market activity throughout the middle of the year. 
+              Possible factors contributing to this consistency are:
+               - Industry conferences
+               - Economic data releases
+               - Company-specific announcements that stimulate trading activity
+            - __Quarter 4:__ While experiencing a slightly lower total volume traded compared to other quarters, it still maintains significant market activity. This could be influenced 
+               by year-end factors such as:
+               - Tax considerations
+               - Holiday spending trends
+               - End-of-year portfolio adjustments
+
+      - **Earnings Releases and Significant Announcements:**
+         - The timing of earnings releases and other significant announcements can also impact trading volumes:
+
+Earnings Releases: Companies often release their financial results at the end of each quarter, prompting increased trading activity as investors react to the performance metrics and guidance provided.
+Major Corporate Events: Significant events such as product launches, mergers, acquisitions, or regulatory developments can also drive trading volumes during specific quarters. Positive news or favorable outcomes may lead to spikes in trading activity as investors position themselves to capitalize on the opportunities presented.
+Monitoring these events and understanding their potential impact on investor sentiment can be crucial for making informed investment decisions.
+
+Investor Behavior and Market Sentiment
+The fluctuation in trading volumes across quarters reflects changes in investor behavior and market sentiment throughout the year. Factors that can influence this behavior include:
+
+Economic Conditions: Investors may adjust their trading strategies and portfolio allocations based on shifts in the overall economy.
+Geopolitical Events: Political developments at both domestic and international levels can have a significant impact on investor sentiment.
+Industry Trends: Specific sectors or industries may experience periods of growth or decline, influencing investor preferences.
+Analyzing these factors alongside seasonal patterns in trading activity can help investors anticipate market movements, identify trading opportunities, and manage risk effectively. It also provides valuable insights for analysts and stakeholders seeking to interpret market trends and make informed decisions
+
+
 <br />
 <br />
 
