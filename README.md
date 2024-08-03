@@ -203,17 +203,13 @@ My analysis OF thE total traded volume by a company brings out overwhelming disp
 - <img src="images/Average_Low_and_High_Price_Traded_By_Companies_image.jpg" width="500">
 
 - **Total Average Low And Hhigh Price Traded By Company:**
-  - __Understanding Price Range:__
-    - The total average low and high prices traded by each company offer investors a glimpse into the typical price range within which the stock fluctuates. For example, Amazon's 
-    total average low and high prices indicate that its stock typically trades within a higher price range compared to other companies like Uber or Apple. Stocks with higher 
-    average low and high prices may be perceived as more valuable or premium, while those with lower average prices may be considered more affordable or speculative.
-  - __Identifying Buying or Selling Opportunities:__
-    - Deviations from the average low and high prices can signal potential buying or selling opportunities for investors. For instance, if a stock's price drops significantly below 
-    its average low price, it may present a buying opportunity for investors who believe the stock is undervalued and poised for a rebound. Conversely, if a stock's price surpasses 
-    its average high price, it may indicate that the stock is overvalued and could be a signal for investors to consider selling or taking profits. 
+  - __Price Range Understanding:__
+  - The total average low and high prices that each company trades at can help investors to get an idea of where the stock typically falls. For example, examining the total average low and high prices for Amazon, one could say that this company mostly trades within a higher price range compared with other businesses like Uber or Apple. The average price will identify those stocks with high average lows and highs as being more valued or premium in nature, while those with low prices will be rated as more affordable or speculative. 
+  - __Identifying Opportunities to Buy or Sell:__
+  - Below- or above-average price extremes can be an indication to buy or sell for investors.
+For instance, when its price plunges severely below the average low, it presents a buying opportunity to the investor who has cause to believe the stock has been beaten down and is due for a bounce. Conversely, when the price of a stock goes too high above the average high price, this could mean that the stock is becoming too expensive hence, a sell or take-profit signal. 
   - __Risk Assessment:__
-    - Knowledge of the average low and high prices traded by a company allows investors to assess the risk associated with trading that particular stock. Stocks with wider price 
-    ranges may be perceived as more volatile and risky, while those with narrower price ranges may be considered more stable and predictable.
+  - One such knowledge that will bring out the risk associated with trading a particular stock is the average low and high prices that are traded by a company. The risk perception would be higher in stocks having a wider range of prices and lower for those with a narrower range of prices. 
 <br />
 <br />
 
