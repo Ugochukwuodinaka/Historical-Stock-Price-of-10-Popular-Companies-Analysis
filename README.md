@@ -54,7 +54,7 @@ All of the 10 tables has 7 columns each of the same column names and data types.
 2. Data Modelling
 3. Data Visualiziation
 4. Descriptive Analytics
-5.Analytical and Critical Thinking
+5. Analytical and Critical Thinking
 6. Problem Solving
 7. Communication and Reporting
 <br />
@@ -81,7 +81,7 @@ All of the 10 tables has 7 columns each of the same column names and data types.
 4. Created a table __"Date Year"__ to house the __"Date"__ seperately.
 5. Added a new column __"Quarter"__ in the __"10 Companies"__ table to handle stock transactions by the 4 quaters of the year.
 6. Transformed every other column type to its appropriate column type.
-7. After data cleaning and tranformation were performed on all the tables. The tables appeared to be clean. The quality of each column became 100% with no error or nulls.
+7. After data cleaning and tranformation were performed on all the tables. The tables appeared to be clean. The quality of each column became 100% valid with zero errors or nulls.
 
 - Below is a preview of some of the tables which are __Amazon__, __Facebook__, __Microsoft__, __Tesla__, and __10 Companies__ tables:
 
@@ -126,7 +126,7 @@ Model View 1 (For all 10 Companies)                                             
 ![](images/Model_View_1.png)                                                              |           
 <br />
 
-Model View 2 (Showing the relationship between the fact table and the dimensions tabel)      |                                
+Model View 2 (Showing the relationship between the fact table and the dimension tables)      |                                
 :--------------------------------------------------------------------------------------------:|
 ![](images/Model_View_2.png)                                                                         |           
 <br />
@@ -139,13 +139,13 @@ Model View 2 (Showing the relationship between the fact table and the dimensions
 <br />
 
 ### Project Analysis:
-From the analysis, i made the following Key findings below:
-- The Total Traded Volume is __465bn.__
-- The Total Average Traded Volume is __28.25M.__
-- Average Traded Open Price is __409.76.__
-- Average Traded Close Price is __409.81.__
-- Average Adjusted Close Price __447.01.__
-- The Total Number of Companies is __10.__
+From the analysis, i made the below Key findings:
+- The Total Traded Volume: __465bn.__
+- The Total Average Traded Volume: __28.25M.__
+- Average Traded Open Price: __409.76.__
+- Average Traded Close Price: __409.81.__
+- Average Adjusted Close Price: __447.01.__
+- The Total Number of Companies: __10.__
 <br />
 <br />
 
