@@ -34,7 +34,7 @@ The goals for this analysis project are as follows:
 <br />
 
 ### About The Dataset
-The dataset had 10 tables for the historical stock price data of 10 different companies. The data is provided by Quantum Analytics. Here is the link to the raw data folder; you can click here to find the transformed data folder. Now, for all these 10 tables, the column setup remains exactly the same.
+The dataset has 10 tables for the historical stock price data of 10 different companies. The data is provided by Quantum Analytics. Here is the link to the raw data folder; you can click here to find the transformed data folder. Now, for all these 10 tables, the column setup remains exactly the same.
 
 All of the 10 tables has 7 columns each of the same column names and data types. Given below is the description of the 7 columns in the 10 tables that make up the dataset for this analysis project:
 | Table                              | Field                    | Description                            |            
@@ -46,14 +46,6 @@ All of the 10 tables has 7 columns each of the same column names and data types.
 |                                    | Close                    | The price of "Close" is always the last price at which the stock closed when the market closes on a particular trading day. It's just the last price of the trade conducted on that day for that particular stock.        |
 |                                    | Adjusted close           | "Adjusted Close" pricing refers to the close price of a stock at any given time; however, it readjusts for corporate actions that have taken place since its issue. This helps give a more distinctive, true value of the stock price.        |
 |                                    | Volume                   | This column indicates the total number of shares of a given stock that traded during the trading day. Essentially, it is the level of trading activity of that particular stock for the day.        |
-
-- __Date:__ This column shows the date of record or reporting of stock price data. Here, every row corresponds to each day in the dataset.
-- __Open:__ This is the open price of a security or the price it began selling for when the market opened on any given day of trading. It is the first quoted price for such security on that particular day.
-- __High:__ The highest price traded by that security on an official trading day. This is also referred to as the peak price that has been reached by security on that day.
-- __Low:__ The price of "Low" is the lowest that the stock has traded for during the trading day. It just depicts the lowest price touched by the stock on that particular day.
-- __Close:__ The price of "Close" is always the last price at which the stock closed when the market closes on a particular trading day. It's just the last price of the trade conducted on that day for that particular stock.
-- __Adjusted close:__ "Adjusted Close" pricing refers to the close price of a stock at any given time; however, it readjusts for corporate actions that have taken place since its issue. This helps give a more distinctive, true value of the stock price.
-- __Volume:__ This column indicates the total number of shares of a given stock that traded during the trading day. Essentially, it is the level of trading activity of that particular stock for the day.
 <br />
 <br />
 
@@ -62,16 +54,17 @@ All of the 10 tables has 7 columns each of the same column names and data types.
 2. Data Modelling
 3. Data Visualiziation
 4. Descriptive Analytics
-5. Critical Thinking and Problem Solving
-6. Communication and Reporting
+5.Analytical and Critical Thinking
+6. Problem Solving
+7. Communication and Reporting
 <br />
 
 ### Tools Used
 1. Power Query Editor
     - Was used to:
         1. Extract,
-        2. Transform, and
-        3. Load all the datasets for this analysis.
+        2. Cleaned
+        3. Transform  all the datasets for this analysis.
            
 2. Power BI (Was used to create reports and dashboard for this analysis)
     - The following Power BI Features were incorporated:
@@ -82,13 +75,15 @@ All of the 10 tables has 7 columns each of the same column names and data types.
 <br />
 
 ### Data Cleaning, Transformation and Loading using the Power Query Editor:
-- Added the column __"Company"__ in each of the 10 tables to reflect the names of each company in their individual data table.
-- Created a new table __"Company Lookup"__ with only one column: __"Company"__ to be able to relate with all the other tables with the "Company" key.
-- Created a new table __"10 Companies"__ housing all the data in each and every of the dataset table columns.
-- Created a table __"Date Year"__ to house the __"Date"__ seperately.
-- Added a new column __"Quarter"__ in the __"10 Companies"__ table to handle stock transactions by the 4 quaters of the year.
-- Transformed every other column type to its appropriate column type.
-- After data cleaning and tranformation were performed on all the tables. The tables appeared to be clean. The quality of each column became 100% with no error or nulls. Below is a preview of some of the tables which are __Amazon__, __Facebook__, __Microsoft__, __Tesla__, and __10 Companies__ tables:
+1. Added the column __"Company"__ in each of the 10 tables to reflect the names of each company in their individual data table.
+2. Created a new table __"Company Lookup"__ with only one column: __"Company"__ to be able to relate with all the other tables with the "Company" key.
+3. Created a new table __"10 Companies"__ housing all the data in each and every of the dataset table columns.
+4. Created a table __"Date Year"__ to house the __"Date"__ seperately.
+5. Added a new column __"Quarter"__ in the __"10 Companies"__ table to handle stock transactions by the 4 quaters of the year.
+6. Transformed every other column type to its appropriate column type.
+7. After data cleaning and tranformation were performed on all the tables. The tables appeared to be clean. The quality of each column became 100% with no error or nulls.
+
+- Below is a preview of some of the tables which are __Amazon__, __Facebook__, __Microsoft__, __Tesla__, and __10 Companies__ tables:
 
 
 Amazon Table                                               | Facebook Table        
@@ -107,7 +102,7 @@ Microsoft Table                                            |Tesla Table
 <br />
 
 ## Data Model Design
-The data required for this analysis are located in various tables. Therefore, data modelling is required. A star Schema is designed with the Company_Lookup table representing the __fact table__ containing all the company names, and to which other __dimension tables__ are modelled or connected, using the __Company__ column that is common. __Company Lookup__ table has been modelled with:
+The data required for this analysis are located in various tables. Therefore, data modelling was required. A star Schema was designed with the Company_Lookup table representing the __fact table__ containing all the company names, and to which other __dimension tables__ were modelled or connected, using the __Company__ column that is common. The __Company Lookup__ table has been modelled with:
 
 - __Amazon__ table using the __"Company"__
 - __Apple__ table using the __"Company"__
