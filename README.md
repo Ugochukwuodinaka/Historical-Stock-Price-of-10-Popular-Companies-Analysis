@@ -152,20 +152,22 @@ From the analysis, i made the below Key findings:
 - <img src="images/Total_Traded_Volume_By_Company_image.jpg" width="250">
 
 - **The Total Traded Volume By Company:**
-My analysis OF thE total traded volume by a company brings out overwhelming disparities in trading activity among the ten popular companies. The conclusion shows that Apple leads in terms of volume traded, having 243 billion shares traded, followed by Tesla and Microsoft with 67 billion and 53 billion, respectively. Other companies, like Facebook, Netflix, Uber, Walmart, and Amazon, trade at volumes running from 39 to 15 billion shares in that order. Zoom and Google are completely out of this pace, with quite considerably lower total traded volumes of 4 billion and 3 billion shares, correspondingly
+My analysis OF thE total traded volume by a company brings out overwhelming disparities in trading activity among the ten popular companies. The conclusion shows that Apple leads in terms of volume traded, having 243 billion shares traded, followed by Tesla and Microsoft with 67 billion and 53 billion, respectively. Other companies, like Facebook, Netflix, Uber, Walmart, and Amazon, trade at volumes running from 39 to 15 billion shares in that order. Zoom and Google are completely out of this pace, with quite considerably lower total traded volumes of 4 billion and 3 billion shares, correspondingly.
 
 - __My Interpretation and Insights:__
-   - **Investor Interest and Market Dynamics:**
-      - The substantial total traded volume for companies like Apple, Tesla, and Microsoft suggests heightened investor interest and confidence in these stocks. These companies are often considered market leaders in their respective industries, attracting significant attention from investors.
-      - Variations in total traded volume reflect shifts in investor sentiment and market dynamics. Higher trading volumes may indicate increased investor activity driven by factors such as company performance, industry trends, economic indicators, or geopolitical events.
-      - Companies with higher total traded volumes, such as Apple and Tesla, may experience greater market liquidity and price discovery, making them attractive options for investors seeking active trading opportunities.
-    - **Company-Specific Events:**
-      - Company-specific events such as earnings announcements, product launches, mergers, acquisitions, or regulatory developments can significantly impact trading volumes. Positive news or favorable outcomes often lead to spikes in trading activity as investors react to new information.
-      -  For instance, Tesla's high total traded volume could be attributed to its innovative product offerings, strong brand loyalty, and disruptive influence in the electric vehicle market. Similarly, Apple's leading position may be attributed to its consistent product innovation, robust financial performance, and loyal customer base.
-    - **Volatility and Risk:**
-      - Higher trading volumes can indicate increased volatility in certain stocks, as larger volumes of shares are bought and sold within a given period.
-      - Volatility presents both opportunities and risks for investors, as it can amplify price movements and lead to potential gains or losses.
-      - Stocks with high trading volumes may experience greater price fluctuations in response to market news, leading to increased trading opportunities for investors seeking to capitalize on short-term
+  - __Investor Interest and Market Dynamics:__
+    - __High Volume Leaders__<br> Apple, Tesla, and Microsoft exhibit high volumes traded, which is indicative of strong investor interest and confidence.
+    - __Market Trends__<br> Changes in volume traded mirror shifts in investor sentiment and market dynamics.
+    - __Market Liquidity:__ With higher volumes, one expects better liquidity and price discovery, making these stock plays more interesting for the active trader.
+  - __Company-Specific Events:__
+    - __Effect of News on Price/Demand:__ This may include earnings reports, product launches, mergers, and the like.
+    - __Examples:__
+      - Tesla's volume may be the handiwork of its innovative products and a strong brand image.
+      - Apple is probably in the lead because of the innovations it keeps introducing and sound economic performance.
+  - __Volatility and Risk:__
+      - __Volume and Volatility:__ An augmented volume of trade may be indicative of more volatility.
+      - __Opportunities and Risks:__ As a simple matter of fact, volatility means potential gains or losses and presents both opportunities and risks for investors.
+      - __Price Fluctuations:__ High trading volumes in the shares could result in further movements in the share price in the direction of market news, thus offering a number of trading opportunities in the short term.
 <br />
 <br />
 
