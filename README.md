@@ -102,7 +102,7 @@ Microsoft Table                                            |Tesla Table
 <br />
 
 ## Data Model Design
-The data required for this analysis are located in various tables. Therefore, data modelling was required. A star Schema was designed with the Company_Lookup table representing the __fact table__ containing all the company names, and to which other __dimension tables__ were modelled or connected, using the __Company__ column that is common. The __Company Lookup__ table has been modelled with:
+The data required for this analysis are located in various tables. Therefore, data modelling was required. A star Schema was designed with the Company_Lookup table representing the __dimension table__ containing all the company names, and to which other __fact tables__ were modelled or connected, using the __Company__ column that is common amongst them. The __Company Lookup__ table has been modelled with:
 
 - __Amazon__ table using the __"Company"__
 - __Apple__ table using the __"Company"__
@@ -116,9 +116,9 @@ The data required for this analysis are located in various tables. Therefore, da
 - __Zoom__ table using the __"Company"__
 - __10 Companies__ table using the __"Company"__
 
-The __Date Year__  table also has a relationship with the fact table through a direct relationship with the __10 Companies__ table using the key column __"Date"__ in both the __Date Year__ table and the __10 Companies__ table.
-- Because our screenshot couldn't contain all the tables and their relationships, I divided the view into 2. The Model View 1 displays all the 10 Company tables linked to the fact table,
-- Model View 2 displays a view of the __Company Lookup__ (fact) table, the __10 Companies__ table (dimension) table, the __Date Year__ table linked to the __10 Company's__ table, the 10 Companies tables linked to the __Company Lookup__ table and the __Data Analysis Expression__ (DAX) standing alone.  You can access the full Power BI project document [here](HISTORICAL%20STOCK%20PRICE%20OF%2010%20POPULAR%20COMPANIES.pbix).
+The __Date Year__  table also has a relationship with the fact tables through a direct relationship with the __10 Companies__ tables using the key column __"Date"__ in both the __Date Year__ table and the __10 Companies__ table.
+- Because our screenshot couldn't contain all the tables and their relationships, I divided the view into 2. The __Model View 1__ displays all the 10 Company fact tables linked to the dimension table,
+- __Model View 2__ displays a view of the __Company Lookup__ (dimension) table, the __10 Companies__ table (fact) table, the __Date Year__ table linked to the __10 Company's__ table, the 10 Companies table linked to the __Company Lookup__ table and the __Data Analysis Expression__ (DAX) standing alone.  You can access the full Power BI project document [here](HISTORICAL%20STOCK%20PRICE%20OF%2010%20POPULAR%20COMPANIES.pbix).
 <br />
 
 Model View 1 (For all 10 Companies)                                                |                                
@@ -126,7 +126,7 @@ Model View 1 (For all 10 Companies)                                             
 ![](images/Model_View_1.png)                                                              |           
 <br />
 
-Model View 2 (Showing the relationship between the fact table and the dimension tables)      |                                
+Model View 2 (Showing the relationship between the fact tables and the dimension table)      |                                
 :--------------------------------------------------------------------------------------------:|
 ![](images/Model_View_2.png)                                                                         |           
 <br />
