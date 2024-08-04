@@ -63,8 +63,8 @@ All of the 10 tables has 7 columns each of the same column names and data types.
 1. Power Query Editor
     - Was used to:
         1. Extract,
-        2. Cleaned
-        3. Transform  all the datasets for this analysis.
+        2. Clean and
+        3. Transform all the datasets for this analysis.
            
 2. Power BI (Was used to create reports and dashboard for this analysis)
     - The following Power BI Features were incorporated:
@@ -76,14 +76,14 @@ All of the 10 tables has 7 columns each of the same column names and data types.
 
 ### Data Cleaning, Transformation and Loading using the Power Query Editor:
 1. Added the column __"Company"__ in each of the 10 tables to reflect the names of each company in their individual data table.
-2. Created a new table __"Company Lookup"__ with only one column: __"Company"__ to be able to relate with all the other tables with the "Company" key.
-3. Created a new table __"10 Companies"__ housing all the data in each and every of the dataset table columns.
+2. Created a new table __"Company Lookup"__ with only one column: __"Company"__ which was enabled to relate with all the other tables through the "Company" key.
+3. Created a new table __"10 Companies"__ housing the entire table data in each and every of the dataset table columns.
 4. Created a table __"Date Year"__ to house the __"Date"__ seperately.
-5. Added a new column __"Quarter"__ in the __"10 Companies"__ table to handle stock transactions by the 4 quaters of the year.
+5. Added a new column __"Quarter"__ in the __"10 Companies"__ table to handle stock transactions by the 4 quarters of the year.
 6. Transformed every other column type to its appropriate column type.
 7. After data cleaning and tranformation were performed on all the tables. The tables appeared to be clean. The quality of each column became 100% valid with zero errors or nulls.
 
-- Below is a preview of some of the tables which are __Amazon__, __Facebook__, __Microsoft__, __Tesla__, and __10 Companies__ tables:
+- Below is a preview of some of the tables which are __Amazon__, __Facebook__, __Microsoft__, __Tesla__, and the __10 Companies__ tables:
 
 
 Amazon Table                                               | Facebook Table        
@@ -102,26 +102,26 @@ Microsoft Table                                            |Tesla Table
 <br />
 
 ## Data Model Design
-The data required for this analysis are located in various tables. Therefore, data modelling was required. A star Schema was designed with the Company_Lookup table representing the __dimension table__ containing all the company names, and to which other __fact tables__ were modelled or connected, using the __Company__ column that is common amongst them. The __Company Lookup__ table has been modelled with:
+The data required for this analysis are located in various tables. Therefore, data modelling was required. A star Schema was designed with the Company_Lookup table representing the __dimension table__ containing all the company names, and to which other __fact tables__ were modelled or connected to using the __Company__ column that was common amongst them. The __Company Lookup__ table has been modelled with:
 
-- __Amazon__ table using the __"Company"__
-- __Apple__ table using the __"Company"__
-- __Facebook__ table using the __"Company"__
-- __Google__ table using the __"Company"__
-- __Microsoft__ table using the __"Company"__
-- __Netflix__ table using the __"Company"__
-- __Tesla__ table using the __"Company"__
-- __Uber__ table using the __"Company"__
-- __Walmart__ table using the __"Company"__
-- __Zoom__ table using the __"Company"__
-- __10 Companies__ table using the __"Company"__
+- __Amazon__ table using the __"Company"__ column.
+- __Apple__ table using the __"Company"__ column.
+- __Facebook__ table using the __"Company"__ column.
+- __Google__ table using the __"Company"__ column.
+- __Microsoft__ table using the __"Company"__ column.
+- __Netflix__ table using the __"Company"__ column.
+- __Tesla__ table using the __"Company"__ column.
+- __Uber__ table using the __"Company"__ column.
+- __Walmart__ table using the __"Company"__ column.
+- __Zoom__ table using the __"Company"__ column.
+- __10 Companies__ table using the __"Company"__ column.
 
-The __Date Year__  table also has a relationship with the fact tables through a direct relationship with the __10 Companies__ tables using the key column __"Date"__ in both the __Date Year__ table and the __10 Companies__ table.
-- Because our screenshot couldn't contain all the tables and their relationships, I divided the view into 2. The __Model View 1__ displays all the 10 Company fact tables linked to the dimension table,
-- __Model View 2__ displays a view of the __Company Lookup__ (dimension) table, the __10 Companies__ table (fact) table, the __Date Year__ table linked to the __10 Company's__ table, the 10 Companies table linked to the __Company Lookup__ table and the __Data Analysis Expression__ (DAX) standing alone.  You can access the full Power BI project document [here](HISTORICAL%20STOCK%20PRICE%20OF%2010%20POPULAR%20COMPANIES.pbix).
+The __Date Year__  table also has a relationship with the fact tables through a direct relationship with the __10 Companies__ table using the key column __"Date"__ in both the __Date Year__ table and the __10 Companies__ table.
+- Because our screenshot couldn't contain all the tables and their relationships at once, I divided the view into 2. The __Model View 1__ displays all the 10 different Company fact tables linked to the dimension table.
+- __Model View 2__ displays a view of the __Company Lookup__ (dimension) table, the __10 Companies__ table (fact) table, the __Date Year__ table linked to the __10 Company's__ table, the 10 Companies table linked to the __Company Lookup__ table, and the __Data Analysis Expression__ (DAX) standing alone.  You can access the full Power BI project document [here](HISTORICAL%20STOCK%20PRICE%20OF%2010%20POPULAR%20COMPANIES.pbix).
 <br />
 
-Model View 1 (For all 10 Companies)                                                |                                
+Model View 1 (For all the 10 Companies)                                                |                                
 :---------------------------------------------------------------------------------:|
 ![](images/Model_View_1.png)                                                              |           
 <br />
@@ -152,13 +152,13 @@ From the analysis, i made the below Key findings:
 - <img src="images/Total_Traded_Volume_By_Company_image.jpg" width="250">
 
 - **The Total Traded Volume By Company:**
-My analysis OF thE total traded volume by a company brings out overwhelming disparities in trading activity among the ten popular companies. The conclusion shows that Apple leads in terms of volume traded, having 243 billion shares traded, followed by Tesla and Microsoft with 67 billion and 53 billion, respectively. Other companies, like Facebook, Netflix, Uber, Walmart, and Amazon, trade at volumes running from 39 to 15 billion shares in that order. Zoom and Google are completely out of this pace, with quite considerably lower total traded volumes of 4 billion and 3 billion shares, correspondingly.
+My analysis oF the total traded volume by company brings out overwhelming disparities in trading activity among the ten popular companies. The conclusion shows that Apple leads in terms of volume traded, having 243 billion shares traded, followed by Tesla and Microsoft with 67 billion and 53 billion, respectively. Other companies, like Facebook, Netflix, Uber, Walmart, and Amazon, trade at volumes running from 39 to 15 billion shares in that order. Zoom and Google are completely out of this pace, with quite considerably lower total traded volumes of 4 billion and 3 billion shares, correspondingly.
 
 - __My Interpretation and Insights:__
   - __Investor Interest and Market Dynamics:__
-    - __High Volume Leaders__<br> Apple, Tesla, and Microsoft exhibit high volumes traded, which is indicative of strong investor interest and confidence.
-    - __Market Trends__<br> Changes in volume traded mirror shifts in investor sentiment and market dynamics.
-    - __Market Liquidity:__ With higher volumes, one expects better liquidity and price discovery, making these stock plays more interesting for the active trader.
+    - __High Volume Leaders:__ Apple, Tesla, and Microsoft exhibit high volumes traded, which is indicative of strong investor interest and confidence.
+    - __Market Trends:__ Changes in volume traded mirror shifts in investor sentiment and market dynamics.
+    - __Market Liquidity:__ With higher volumes, one expects better liquidity and price discovery, making these stocks play more interesting role for the active trader.
   - __Company-Specific Events:__
     - __Effect of News on Price/Demand:__ This may include earnings reports, product launches, mergers, and the like.
     - __Examples:__
@@ -178,25 +178,25 @@ My analysis OF thE total traded volume by a company brings out overwhelming disp
   
 - __Interpretation and Insights:__
   - __Seasonal Trends and Trading Activity:__
-    - __Quarter 1:__ Increased trading volume from the combination of the following:
+    - __Quarter 1:__ Increased trading volume which may be as a result of the combination of the following:
         – Annual earnings reports
         – Strategic investor planning
         – Portfolio rebalancing
-    - __Quarter 2 & 3:__ Stable trading volume from:
+    - __Quarter 2 & 3:__ Stable trading volume which may be likely from:
         – Industry conferences
         - Economic data releases
         - Company-specific announcements
-    - __Quarter 4:__ Slightly lower volume but still active due to:
+    - __Quarter 4:__ Slightly lower volume but still active which may be due to:
         - Tax considerations
         - Holiday spending trends
         - End-of-year portfolio adjustments
         - Earnings Releases and Major Announcements:
-  - __Earnings Releases__: Higher trading when companies post quarterly results.
+  - __Earnings Releases__: Higher trading may occur when companies post quarterly results.
     - __Major Events:__ Trading spikes due to product launches, mergers, acquisitions, or regulatory news.
     - __Investor Behavior and Market Sentiment:__
-    - __Economic Conditions:__ Shifts in the economy lead to altered strategies for investors.
-    - __Geopolitical Events:__ Political happenings change market sentiments.
-  - __Industry Trends:___ Sectorial growth or decline impacts the behavior of investors.
+    - __Economic Conditions:__ Shifts in the economy may lead to altered strategies for investors.
+    - __Geopolitical Events:__ Political happenings can change market sentiments.
+  - __Industry Trends:___ Sectorial growth or decline may impacts the behavior of investors.
 <br />
 <br />
 
@@ -206,7 +206,7 @@ My analysis OF thE total traded volume by a company brings out overwhelming disp
   - __Price Range Understanding:__
   - The total average low and high prices that each company trades at can help investors to get an idea of where the stock typically falls. For example, examining the total average low and high prices for Amazon, one could say that this company mostly trades within a higher price range compared with other businesses like Uber or Apple. The average price will identify those stocks with high average lows and highs as being more valued or premium in nature, while those with low prices will be rated as more affordable or speculative. 
   - __Identifying Opportunities to Buy or Sell:__
-  - Below- or above-average price extremes can be an indication to buy or sell for investors.
+  - Below or above average price extremes can be an indication to buy or sell for investors.
 For instance, when its price plunges severely below the average low, it presents a buying opportunity to the investor who has cause to believe the stock has been beaten down and is due for a bounce. Conversely, when the price of a stock goes too high above the average high price, this could mean that the stock is becoming too expensive hence, a sell or take-profit signal. 
   - __Risk Assessment:__
   - One such knowledge that will bring out the risk associated with trading a particular stock is the average low and high prices that are traded by a company. The risk perception would be higher in stocks having a wider range of prices and lower for those with a narrower range of prices. 
@@ -217,23 +217,21 @@ For instance, when its price plunges severely below the average low, it presents
 
 - **Total Traded Volume By Company Year Trend:**
   - __Overall Growth or Decline in Trading Volume:__ For most firms, the general trend is an increased trading volume over the years, showing investors' increasing interest in such kinds of stocks. For example, Amazon, Apple, Microsoft, and Tesla had a continuous growth in trading volumes from 2015 to 2021. This upward trend of trading volume reflects that the investors are looking positively towards these companies in the long term. This can be attributed to company performance, industry trends, market dynamics, and macroeconomic conditions. 
-  - __Company-Specific Trends:__ Some companies show fluctuations or irregularities in trading volume over the years. For example, Uber and Zoom have huge trading volume increases upwards from 2019—this corresponds to the increasing interest of investors post the IPO events.  In the case of Netflix, there is a slight decline in trading volume from 2015 up to 2021. The reason could be that more and more players entered into the streaming business or that consumer tastes changed. However, the overall trend remains quite flat. 
-  - __Market Sentiment and Company Fundamentals Indicators:__ The indicating change in the Market Sentiments/Company Fundamentals, substantial change in the trading volume of the shares is usually affected now and then. For example company's result announcements, or any other major news, critical regulatory or policy changes that affect the thinking of the investors their will be a sharp surge in trading volume.
-Changes in trading volume are interpreted by investors themselves as a signal to or of market activity, in which investment strategies are, therefore, changed accordingly. Higher trading volumes may reflect an increase in investor confidence or speculation, while lower ones may piggyback caution or lack of interest. 
-  - __Long-Term Investment Trends:__ Long-term trends in total traded volume give valuable insights to investors looking to understand the bigger picture of investments to visualize trends, opportunities, or risks. Businesses whose trading volumes have been increasing consistently over the years may be considered by investors as very stable companies in terms of investment with good growth prospects. Companies that record falling volumes of trade could be facing some challenges or uncertainties that call for closer.
-
+  - __Company-Specific Trends:__ Some companies show fluctuations or irregularities in trading volume over the years. For example, Uber and Zoom have huge trading volume increases upwards from 2019, this corresponds to the increasing interest of investors post the IPO events. In the case of Netflix, there is a slight decline in trading volume from 2015 up to 2021. The reason could be that more and more players entered into the streaming business or that consumer tastes changed. However, the overall trend remains quite flat. 
+  - __Market Sentiment and Company Fundamentals Indicators:__ The indicating change in the Market Sentiments/Company Fundamentals, substantial change in the trading volume of the shares is usually affected now and then. For example company's result announcements, or any other major news, critical regulatory or policy changes that affect the thinking of the investors may cause a sharp surge in trading volume. Changes in trading volume are interpreted by investors themselves as a signal to or of market activity, in which investment strategies are, therefore, changed accordingly. Higher trading volumes may reflect an increase in investor confidence or speculation, while lower ones may piggyback caution or lack of interest. 
+  - __Long-Term Investment Trends:__ Long-term trends in total traded volume give valuable insights to investors looking to understand the bigger picture of investments to visualize trends, opportunities, or risks. Businesses whose trading volumes have been increasing consistently over the years may be considered by investors as very stable companies in terms of investment with good growth prospects. Companies that record falling volumes of trade could be facing some challenges or uncertainties that call for a closer look.
 <br />
 <br />
 
 - <img src="images/Total_Close_Price_By_Company_Year_Trend_image.jpg" width="500">
 
 - **Total Close Price By Company Year Trend:**
-- The multiple-line chart indicates the total close prices for each stock of the companies over the years from 2015 to 2021. In relation, I try to provide some insight into companies' stock performance trends over time and how changes in total close prices may be driven by changes in market valuations, investor expectations, or company performance.
-   - __My Interpretation and Insights:__
-Overall Performance Trends: From the data, one can see the various trends that each of the companies' stock has taken within the seven years. While some companies show a higher close price compared to others, some have more ups and downs. For example, Amazon, Apple, Facebook, Google, Microsoft, Netflix, Tesla, Walmart, Uber, and Zoom—all their total close prices are specific over time because each company is different in its business and experiences different market conditions.
-   - __Changes in Market Valuation and Investor Expectations:__ In case the series of total close prices is increasing over time, then this would mean that the market is coming to hold a company in higher regard and investors are becoming more sanguine about the company's future. That means investors are ready to pay more for the company's share since they believe in its growth and more money is going to come out of it. On the other hand, if there had been a drop in the total closing price, then one could assume that less value was put on the firm by the market, and normally, the investors become worried over its performance.
+- The multiple-line chart indicates the total close prices for each stock of the companies over the years from 2015 to 2021. In relation to this, I tried to provide some insight into companies' stock performance trends over time and how changes in total close prices may be driven by changes in market valuations, investor expectations, or company performance.
+- __My Interpretation and Insights:__
+   - __Overall Performance Trends:__ From the data, one can see the various trends that each of the companies' stock has taken within the seven years. While some companies show a higher close price compared to others, some have more ups and downs. For example, Amazon, Apple, Facebook, Google, Microsoft, Netflix, Tesla, Walmart, Uber, and Zoom, all have their total close prices specified over time because each company is different in its business and experiences different market conditions.
+   - __Changes in Market Valuation and Investor Expectations:__ In a situation where the series of total close prices is increasing over time, then it would means that the market may hold a company{s} in higher regard and investors may become more optimistic about the company's future. That means investors are ready to pay more for the company's share since they believe in its growth and more money will be invested as more shares will be traded. On the other hand, if there had been a drop in the total closing price, then one could assume that less value was put on the firm by the market, and normally, the investors become worried over its performance.
    - __Company Performance Effects:__ Total close price movements may be driven by how well or how bad the company is doing. These include such factors as changes in revenues, profitability, market share, and growth plans versus competition. Good news, such as solid financial results or successful new products, may drive stock prices up, and bad news may drive them down. For example, Tesla's total close price increased significantly from 2015 to 2021, which might be due to its fast growth and new ideas in technology, hence attracting more customers as compared to other electric car companies.
-   - __Investor behavior and market dynamics:__ The changes in aggregate closing prices over time are driven by the attitude and actions taken by investors, along with what is going on in the market. This could involve the general state of the economy, sectors, new government rules and regulations, or major global events that raise or lower investor sentiment, hence driving stock prices. Knowing what exactly makes total close price changes can, therefore, help investors to make informed decisions and adjust their investment plans accordingly so that they take advantage of good things or keep away from bad ones.
+   - __Investor behavior and market dynamics:__ The changes in aggregate closing prices over time are driven by the attitude and actions taken by investors, along with what is going on in the market. This could involve the general state of the economy, sectors, new government rules and regulations, or major global events that raise or lower investor sentiment, hence driving stock prices. Knowing what exactly makes total close price changes can, therefore, help investors to make informed decisions and adjust their investment plans accordingly so that they can take advantage of positive market situations or keep away from negative market trends.
 <br />
 <br />
 
@@ -245,7 +243,7 @@ You can view and interact with this dashboard report on Historical Stock Price o
 
 ## 5 Strategies These 10 Companies May Need To Implement To Grow Their Stock Prices
 - __Innovate Continuously:__ These 10 Companies may be looking to invest in research and development for innovating and developing new products, services, or technologies that will quench the emerging market needs and trends. Innovation continuously enhances competitive advantage and allows revenue growth.
-- They may also wish to point out opportunities for geographic expansion into new markets, or diversification into adjacent industries and sectors. Customer base growth and source diversification can decrease risk, unlock new growth, and create entirely new opportunities for development.
+- __Geographical Expansion:__ They may also wish to point out opportunities for geographic expansion into new markets, or diversification into adjacent industries and sectors. Customer base growth and source diversification can decrease risk, unlock new growth, and create entirely new opportunities for development.
 - __Digital Transformation:__ They would have to initiate digital transformation processes in order to make use of technology in improving operational efficiency, engaging customers, and making data-driven decisions. Digital infrastructure and online platforms can spur growth within the digital economy.
 - __Strong Financial Performance:__ It would be important that they maintain strong financial performance concerning revenue growth, profitability, and efficient capital allocation.
 - __Transparency and Stakeholder Engagement:__ Establish transparency, openness in communication, and engagement with stakeholders, investors, employees, customers, and the community. There could be a culture of trust, credibility, and value to shareholders with regular updates with company performance and strategic initiatives.
