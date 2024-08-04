@@ -18,23 +18,23 @@ In the realm of finance, historical stock price analysis is indispensable for in
 
 ### Objective:
 The goals for this analysis project are as follows:
-- __Total Traded Volume:__ Calculate the volume of shares for each of the ten companies traded during this period.
-- __Total Volume Traded Quarterly:__ The trend analysis in relation to the total volume traded by the ten companies on a quarter-on-quarter basis gives insight into their trading activities over the year.
-- __Average Low and High Price:__ It will calculate the average low and high prices that each stock of the company exchanged for, hence giving the price range in which these stocks have been traded.
-- __Total Volume Traded by Year:__ This chart shows the trend of the total trading volume of stocks for each of the ten companies, outlining the trading dynamics for each over time.
-- __Total Close Price by Year:__ The trend of the total closing prices of all stocks traded by the ten companies on a yearly basis will help the user see the overall trends in performance and valuation.
+- __Total Traded Volume:__ To calculate the volume of shares which each of the ten companies traded during this period.
+- __Total Volume Traded Quarterly:__ To look into the trend analysis in relation to the total volume traded by the ten companies on a quarter-on-quarter basis which will give insight into their trading activities over the year.
+- __Average Low and High Price:__ To calculate the average low and high prices that each stock of the company exchanged for, hence give the price range in which these stocks have been traded.
+- __Total Volume Traded by Year:__ To use a chart to show the trend of the total trading volume of stocks for each of the ten companies, thereby outlining the trading dynamics for each over time.
+- __Total Close Price by Year:__ To analyze The trend of the total closing prices of all stocks traded by the ten companies on a yearly basis which will help the users see the overall trends in performance and valuation.
 
 ### Expected Findings:
-- __Total Traded Volume:__ This can indicate whether total traded volumes are trending over time and therefore point to a change in investor sentiment or market dynamics, or that some company-specific event has occurred. High trading volumes could suggest precisely greater interest from investors or volatility in the stock.
+- __Total Traded Volume:__ This will unravel whether total traded volumes are trending over time and therefore point to a change in investor sentiment or market dynamics, or that some company-specific event has occurred. High trading volumes could suggest precisely greater interest from investors or volatility in the stock.
 - __Total Volume Traded Quarterly:__ This will pick up seasonal or other periodic fluctuations in the level of activity. This may include, for instance, spikes in trading volume in certain quarters that may correspond to the timing of earnings announcements or some other important news events.
-- __Average Low and High Price:__ Knowing the average low and high prices will give one a feel for the range in which a stock commonly trades. Huge variations from this may present possible buying or selling opportunities.
-- __Total Volume Traded by Year:__ Long-term trends in total volumes may indicate to the investor whether there is an interest in the stocks of these companies to investors in general. It is the tectonic shifts in trading volumes that characterize changes in sentiment or a change in how the company's fundamentals are valued by the market.
-- __Total Close Price by Year:__ Long-term Analysis—The total closing prices may indicate a trend in the overall performance of the companies' stocks. Either an increasing or decreasing total close price might point to changes in the valuation by the market, investor expectations, or even in the performance of the companies themselves.
+- __Average Low and High Price:__ Knowing the average low and high prices will give one a feel of the range in which a stock commonly trades. Huge variations from this may present possible buying or selling opportunities.
+- __Total Volume Traded by Year:__ This will show long-term trends in total volumes which may indicate to the investor whether there is an interest in the stocks of these companies to investors in general. It is the tectonic shifts in trading volumes that characterize changes in sentiment or a change in how the company's fundamentals are valued by the market.
+- __Total Close Price by Year:__ Long-term Analysis will be displayed. The total closing prices may indicate a trend in the overall performance of the companies' stocks. Either an increasing or decreasing total close price might point to changes in the valuation by the market, investor expectations, or even in the performance of the companies themselves.
 <br />
 <br />
 
 ### About The Dataset
-The dataset has 10 tables for the historical stock price data of 10 different companies. The data is provided by Quantum Analytics. Here is the link to the raw data folder; you can click here to find the transformed data folder. Now, for all these 10 tables, the column setup remains exactly the same.
+The dataset has 10 tables for the historical stock price data of 10 different global companies. The data was provided by Quantum Analytics. [Here](Raw_Data) is the link to the raw data folder; you can click [here](ETL_Data) to find the transformed data folder. Now, for all these 10 tables, the column setup remains exactly the same.
 
 All of the 10 tables has 7 columns each of the same column names and data types. Given below is the description of the 7 columns in the 10 tables that make up the dataset for this analysis project:
 | Table                              | Field                    | Description                            |            
