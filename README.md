@@ -62,9 +62,8 @@ All of the 10 tables has 7 columns each of the same column names and data types.
 ### Tools Used
 1. Power Query Editor
     - Was used to:
-        1. Extract,
-        2. Clean and
-        3. Transform all the datasets for this analysis.
+        1. Clean
+        2. Transform all the datasets for this analysis.
            
 2. Power BI (Was used to create reports and dashboard for this analysis)
     - The following Power BI Features were incorporated:
